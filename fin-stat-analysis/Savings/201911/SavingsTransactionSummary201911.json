@@ -1,0 +1,164 @@
+{
+ "expense_transactions": [
+  {
+   "ABSA LIFE": {
+    "no_of_transactions": 1,
+    "total": 50.0
+   }
+  },
+  {
+   "MONITOR24": {
+    "no_of_transactions": 1,
+    "total": 127.11
+   }
+  },
+  {
+   "TRANSACTION CHARGE": {
+    "no_of_transactions": 14,
+    "total": 147.0
+   }
+  },
+  {
+   "CARTRACK": {
+    "no_of_transactions": 1,
+    "total": 157.46
+   }
+  },
+  {
+   "INTERNET BANK FEE": {
+    "no_of_transactions": 1,
+    "total": 79.5
+   }
+  },
+  {
+   "ABSAHLOAN": {
+    "no_of_transactions": 1,
+    "total": 4709.39
+   }
+  },
+  {
+   "FORMEALS": {
+    "no_of_transactions": 1,
+    "total": 180.0
+   }
+  },
+  {
+   "MWBSA": {
+    "no_of_transactions": 1,
+    "total": 72.0
+   }
+  },
+  {
+   "AFRIFORUM": {
+    "no_of_transactions": 1,
+    "total": 107.0
+   }
+  },
+  {
+   "OMSUREPREM": {
+    "no_of_transactions": 1,
+    "total": 1225.32
+   }
+  },
+  {
+   "DISC INVT": {
+    "no_of_transactions": 1,
+    "total": 899.31
+   }
+  },
+  {
+   "DISCLIFE": {
+    "no_of_transactions": 1,
+    "total": 830.87
+   }
+  },
+  {
+   "ADMINISTRATION FEE": {
+    "no_of_transactions": 1,
+    "total": 26.0
+   }
+  },
+  {
+   "INETBNK PAY DEBIT": {
+    "no_of_transactions": 12,
+    "total": 17010.6
+   }
+  },
+  {
+   "INETBNK TRF DEBIT": {
+    "no_of_transactions": 1,
+    "total": 20000.0
+   }
+  },
+  {
+   "MTN SP": {
+    "no_of_transactions": 1,
+    "total": 356.18
+   }
+  },
+  {
+   "ATM WITHDRAWAL": {
+    "no_of_transactions": 4,
+    "total": 1800.0
+   }
+  },
+  {
+   "NOTIFICATION FEE": {
+    "no_of_transactions": 2,
+    "total": 5.4
+   }
+  },
+  {
+   "HELPENDEHHHD": {
+    "no_of_transactions": 0,
+    "total": 0
+   }
+  }
+ ],
+ "total_income": 91368.56,
+ "period": "201911",
+ "total_expenses": -47833.14,
+ "profit_loss": 43535.42,
+ "date stamp": "2020-01-08 18:06:39",
+ "unknown_transactions": [
+  {
+   "description": "ABSA DIRECT INET/MOB FEE/FOOI",
+   "date": 20191130,
+   "amount": 0.0
+  },
+  {
+   "description": "DIRECT DEBIT HH FONDS  DEC01 HHF191210052",
+   "date": 20191201,
+   "amount": -50.0
+  },
+  {
+   "description": "ADMIN FEE",
+   "date": 20191203,
+   "amount": 0.0
+  },
+  {
+   "description": "NOTIFIC FEE SMS SMS NOTIFICATIONS =    0002",
+   "date": 20191205,
+   "amount": 0.0
+  },
+  {
+   "description": "NOTIFIC FEE SMS SMS NOTIFICATIONS =    0007",
+   "date": 20191219,
+   "amount": 0.0
+  }
+ ],
+ "income_transactions": [
+  {
+   "DIRECT CREDIT DISC": {
+    "no_of_transactions": 2,
+    "total": 90618.56
+   }
+  },
+  {
+   "LFCC CAMERA": {
+    "no_of_transactions": 1,
+    "total": 750.0
+   }
+  }
+ ]
+}

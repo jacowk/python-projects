@@ -1,0 +1,15 @@
+Metric,John & Sons,Sam's Store,Best Performer
+peg_ratio,4.7,3.7,Sam's Store
+profit_margin,3.6,6.6,Sam's Store
+return_on_equity,45.7,4.7,John & Sons
+inventory_turnover_ratio,3.7,2.7,John & Sons
+asset_turnover_ratio,2.7,7.7,Sam's Store
+pe_ratio,5.7,6.7,John & Sons
+dividend_yield,4.9,9.9,Sam's Store
+return_on_assets,2.5,5.5,Sam's Store
+dividend_payout_ratio,5.9,6.9,John & Sons
+pb_ratio,2.8,2.8,Sam's Store
+ps_ratio,4.7,8.7,John & Sons
+debt_to_equity_ratio,4.8,6.8,John & Sons
+
+Best Overall Rating,Tie

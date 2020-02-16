@@ -1,0 +1,92 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Created on Wed Feb  5 18:59:06 2020
+
+@author: jaco
+
+{
+     topic: 
+         [
+           "Test 1": {
+             "date_created": 2020-01-01,
+             "category": "Category 1"
+             "subject": "Test 1",
+             "description": "Testing this subject" }
+         ],
+         [
+           "Test 1": {
+             "date_created": 2020-01-01,
+             "category": "Category 1"
+             "subject": "Test 1",
+             "description": "Testing this subject" }
+         ]
+}
+
+"""
+import json_crud as jc
+import os
+from datetime import datetime
+
+topic = "bookmarks"
+#topic = "scriptures"
+#topic = "notes"
+
+# Retrieve upfront
+main_dict_topic_data = jc.retrieve_json(topic)
+if main_dict_topic_data:
+    subject_list = main_dict_topic_data[topic]
+else:
+    main_dict_topic_data = {} # The main dict
+    subject_list = [] # A list of dict
+
+def check_types():
+    print("Checking types:")
+    print(type(main_dict_topic_data))
+    #print(type(main_dict_topic_data[topic]))
+    print(type(subject_list))
+
+while True:
+    print("\n1 Add item")
+    print("2 Retrieve items")
+    print("3 Update item")
+    print("4 Delete item")
+    print("5 Loop items")
+    print("6 Save JSON")
+    print("7 Quit")
+    user_key = int(input("Enter a choice: "))
+    
+    if user_key == 1: # Add item
+        new_dict_data = jc.create_json(topic)
+        subject_list.append(new_dict_data)
+        check_types()
+    
+    elif user_key == 2: # Retrieve
+        main_dict_topic_data = jc.retrieve_json(topic)
+        if main_dict_topic_data:
+            subject_list = main_dict_topic_data[topic]
+    
+    elif user_key == 3: # Update
+        subject_list = jc.update_json(subject_list)
+        check_types()
+    
+    elif user_key == 4: # Delete
+        subject_list = jc.delete_json(subject_list)
+    
+    elif user_key == 5: # Loop
+        jc.loop_json(subject_list)
+        check_types()
+    
+    elif user_key == 6: # Save
+        check_types()
+        main_dict_topic_data[topic] = subject_list
+        jc.save_json(topic, main_dict_topic_data)
+    
+    elif user_key == 7: # Quit
+        break
+    else:
+        print("Not a recognized command. Try again.")
+    
+
+
+

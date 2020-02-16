@@ -1,0 +1,232 @@
+{
+    "response": {
+        "metaInfo": {
+            "interfaceVersion": "2.6.74",
+            "timestamp": "2020-01-10T16:19:43Z",
+            "mapVersion": "8.30.103.151",
+            "availableMapVersion": [
+                "8.30.103.151"
+            ],
+            "moduleVersion": "7.2.201949-5963"
+        },
+        "language": "en-us",
+        "route": [
+            {
+                "mode": {
+                    "trafficMode": "disabled",
+                    "type": "fastest",
+                    "feature": [],
+                    "transportModes": [
+                        "car"
+                    ]
+                },
+                "summary": {
+                    "trafficTime": 879,
+                    "travelTime": 676,
+                    "flags": [
+                        "noThroughRoad",
+                        "builtUpArea",
+                        "park",
+                        "privateRoad"
+                    ],
+                    "distance": 3848,
+                    "baseTime": 676,
+                    "_type": "RouteSummaryType",
+                    "text": "The trip takes <span class=\"length\">3.8 km</span> and <span class=\"time\">11 mins</span>."
+                },
+                "waypoint": [
+                    {
+                        "spot": 0.3538462,
+                        "source": "user",
+                        "type": "stopOver",
+                        "linkId": "-53623477",
+                        "label": "Neuenburger Stra\u00dfe",
+                        "mappedRoadName": "Neuenburger Stra\u00dfe",
+                        "shapeIndex": 0,
+                        "originalPosition": {
+                            "latitude": 52.5,
+                            "longitude": 13.4
+                        },
+                        "sideOfStreet": "left",
+                        "mappedPosition": {
+                            "latitude": 52.4999825,
+                            "longitude": 13.3999652
+                        }
+                    },
+                    {
+                        "spot": 1.0,
+                        "source": "user",
+                        "type": "stopOver",
+                        "linkId": "+1215312511",
+                        "label": "Schlesische Stra\u00dfe",
+                        "mappedRoadName": "Schlesische Stra\u00dfe",
+                        "shapeIndex": 55,
+                        "originalPosition": {
+                            "latitude": 52.5,
+                            "longitude": 13.45
+                        },
+                        "sideOfStreet": "left",
+                        "mappedPosition": {
+                            "latitude": 52.4992955,
+                            "longitude": 13.4491968
+                        }
+                    }
+                ],
+                "leg": [
+                    {
+                        "end": {
+                            "spot": 1.0,
+                            "source": "user",
+                            "type": "stopOver",
+                            "linkId": "+1215312511",
+                            "label": "Schlesische Stra\u00dfe",
+                            "mappedRoadName": "Schlesische Stra\u00dfe",
+                            "shapeIndex": 55,
+                            "originalPosition": {
+                                "latitude": 52.5,
+                                "longitude": 13.45
+                            },
+                            "sideOfStreet": "left",
+                            "mappedPosition": {
+                                "latitude": 52.4992955,
+                                "longitude": 13.4491968
+                            }
+                        },
+                        "start": {
+                            "spot": 0.3538462,
+                            "source": "user",
+                            "type": "stopOver",
+                            "linkId": "-53623477",
+                            "label": "Neuenburger Stra\u00dfe",
+                            "mappedRoadName": "Neuenburger Stra\u00dfe",
+                            "shapeIndex": 0,
+                            "originalPosition": {
+                                "latitude": 52.5,
+                                "longitude": 13.4
+                            },
+                            "sideOfStreet": "left",
+                            "mappedPosition": {
+                                "latitude": 52.4999825,
+                                "longitude": 13.3999652
+                            }
+                        },
+                        "travelTime": 676,
+                        "length": 3848,
+                        "maneuver": [
+                            {
+                                "position": {
+                                    "latitude": 52.4999825,
+                                    "longitude": 13.3999652
+                                },
+                                "travelTime": 17,
+                                "instruction": "Head <span class=\"heading\">southeast</span> on <span class=\"street\">Neuenburger Stra\u00dfe</span>. <span class=\"distance-description\">Go for <span class=\"length\">46 m</span>.</span>",
+                                "_type": "PrivateTransportManeuverType",
+                                "length": 46,
+                                "id": "M1"
+                            },
+                            {
+                                "position": {
+                                    "latitude": 52.4995744,
+                                    "longitude": 13.4000158
+                                },
+                                "travelTime": 10,
+                                "instruction": "Turn <span class=\"direction\">left</span> onto <span class=\"next-street\">Neuenburger Stra\u00dfe</span>. <span class=\"distance-description\">Go for <span class=\"length\">29 m</span>.</span>",
+                                "_type": "PrivateTransportManeuverType",
+                                "length": 29,
+                                "id": "M2"
+                            },
+                            {
+                                "position": {
+                                    "latitude": 52.4994671,
+                                    "longitude": 13.4004235
+                                },
+                                "travelTime": 37,
+                                "instruction": "Turn <span class=\"direction\">right</span> onto <span class=\"next-street\">Alexandrinenstra\u00dfe</span>. <span class=\"distance-description\">Go for <span class=\"length\">130 m</span>.</span>",
+                                "_type": "PrivateTransportManeuverType",
+                                "length": 130,
+                                "id": "M3"
+                            },
+                            {
+                                "position": {
+                                    "latitude": 52.498405,
+                                    "longitude": 13.3996081
+                                },
+                                "travelTime": 106,
+                                "instruction": "Turn <span class=\"direction\">left</span> onto <span class=\"next-street\">Gitschiner Stra\u00dfe</span>. <span class=\"distance-description\">Go for <span class=\"length\">876 m</span>.</span>",
+                                "_type": "PrivateTransportManeuverType",
+                                "length": 876,
+                                "id": "M4"
+                            },
+                            {
+                                "position": {
+                                    "latitude": 52.4985445,
+                                    "longitude": 13.4121823
+                                },
+                                "travelTime": 12,
+                                "instruction": "Continue on <span class=\"next-street\">Wassertorplatz</span>. <span class=\"distance-description\">Go for <span class=\"length\">129 m</span>.</span>",
+                                "_type": "PrivateTransportManeuverType",
+                                "length": 129,
+                                "id": "M5"
+                            },
+                            {
+                                "position": {
+                                    "latitude": 52.4984264,
+                                    "longitude": 13.4140706
+                                },
+                                "travelTime": 43,
+                                "instruction": "Continue on <span class=\"next-street\">Skalitzer Stra\u00dfe</span>. <span class=\"distance-description\">Go for <span class=\"length\">269 m</span>.</span>",
+                                "_type": "PrivateTransportManeuverType",
+                                "length": 269,
+                                "id": "M6"
+                            },
+                            {
+                                "position": {
+                                    "latitude": 52.4988449,
+                                    "longitude": 13.4179652
+                                },
+                                "travelTime": 254,
+                                "instruction": "Take the <span class=\"exit\">2nd exit</span> from Kottbusser Tor roundabout onto <span class=\"next-street\">Skalitzer Stra\u00dfe</span>. <span class=\"distance-description\">Go for <span class=\"length\">1.7 km</span>.</span>",
+                                "_type": "PrivateTransportManeuverType",
+                                "length": 1686,
+                                "id": "M7"
+                            },
+                            {
+                                "position": {
+                                    "latitude": 52.5009799,
+                                    "longitude": 13.4421694
+                                },
+                                "travelTime": 66,
+                                "instruction": "Turn <span class=\"direction\">right</span> onto <span class=\"next-street\">Schlesische Stra\u00dfe</span> toward <span class=\"sign\"><span lang=\"de\">A117</span>/<span lang=\"de\">Dresden</span>/<span lang=\"de\">Treptow</span>/<span lang=\"de\">Flughafen Sch\u00f6nefeld</span></span>. <span class=\"distance-description\">Go for <span class=\"length\">501 m</span>.</span>",
+                                "_type": "PrivateTransportManeuverType",
+                                "length": 501,
+                                "id": "M8"
+                            },
+                            {
+                                "position": {
+                                    "latitude": 52.4979866,
+                                    "longitude": 13.4476519
+                                },
+                                "travelTime": 131,
+                                "instruction": "Turn <span class=\"direction\">left</span> onto <span class=\"next-street\">Schlesische Stra\u00dfe</span>. <span class=\"distance-description\">Go for <span class=\"length\">182 m</span>.</span>",
+                                "_type": "PrivateTransportManeuverType",
+                                "length": 182,
+                                "id": "M9"
+                            },
+                            {
+                                "position": {
+                                    "latitude": 52.4992955,
+                                    "longitude": 13.4491968
+                                },
+                                "travelTime": 0,
+                                "instruction": "Arrive at <span class=\"street\">Schlesische Stra\u00dfe</span>. Your destination is on the left.",
+                                "_type": "PrivateTransportManeuverType",
+                                "length": 0,
+                                "id": "M10"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

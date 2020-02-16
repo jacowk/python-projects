@@ -1,0 +1,164 @@
+{
+ "expense_transactions": [
+  {
+   "ABSA LIFE": {
+    "no_of_transactions": 1,
+    "total": 50.0
+   }
+  },
+  {
+   "MONITOR24": {
+    "no_of_transactions": 1,
+    "total": 127.11
+   }
+  },
+  {
+   "TRANSACTION CHARGE": {
+    "no_of_transactions": 11,
+    "total": 97.5
+   }
+  },
+  {
+   "CARTRACK": {
+    "no_of_transactions": 1,
+    "total": 157.46
+   }
+  },
+  {
+   "INTERNET BANK FEE": {
+    "no_of_transactions": 1,
+    "total": 63.0
+   }
+  },
+  {
+   "ABSAHLOAN": {
+    "no_of_transactions": 1,
+    "total": 4709.39
+   }
+  },
+  {
+   "FORMEALS": {
+    "no_of_transactions": 1,
+    "total": 180.0
+   }
+  },
+  {
+   "MWBSA": {
+    "no_of_transactions": 1,
+    "total": 72.0
+   }
+  },
+  {
+   "AFRIFORUM": {
+    "no_of_transactions": 1,
+    "total": 107.0
+   }
+  },
+  {
+   "OMSUREPREM": {
+    "no_of_transactions": 1,
+    "total": 1225.32
+   }
+  },
+  {
+   "DISC INVT": {
+    "no_of_transactions": 1,
+    "total": 899.31
+   }
+  },
+  {
+   "DISCLIFE": {
+    "no_of_transactions": 1,
+    "total": 830.87
+   }
+  },
+  {
+   "ADMINISTRATION FEE": {
+    "no_of_transactions": 1,
+    "total": 26.0
+   }
+  },
+  {
+   "INETBNK PAY DEBIT": {
+    "no_of_transactions": 8,
+    "total": 11563.309999999998
+   }
+  },
+  {
+   "INETBNK TRF DEBIT": {
+    "no_of_transactions": 2,
+    "total": 8000.0
+   }
+  },
+  {
+   "MTN SP": {
+    "no_of_transactions": 1,
+    "total": 506.17
+   }
+  },
+  {
+   "ATM WITHDRAWAL": {
+    "no_of_transactions": 1,
+    "total": 150.0
+   }
+  },
+  {
+   "NOTIFICATION FEE": {
+    "no_of_transactions": 2,
+    "total": 5.4
+   }
+  },
+  {
+   "HELPENDEHHHD": {
+    "no_of_transactions": 1,
+    "total": 50.0
+   }
+  }
+ ],
+ "total_income": 33478.07,
+ "period": "201909",
+ "total_expenses": -28819.839999999997,
+ "profit_loss": 4658.230000000003,
+ "date stamp": "2020-01-08 18:06:13",
+ "unknown_transactions": [
+  {
+   "description": "ABSA DIRECT INET/MOB FEE/FOOI",
+   "date": 20190929,
+   "amount": 0.0
+  },
+  {
+   "description": "DIRECT CREDIT INT PBACK 5131055336-1754560",
+   "date": 20191001,
+   "amount": 906.79
+  },
+  {
+   "description": "ADMIN FEE",
+   "date": 20191003,
+   "amount": 0.0
+  },
+  {
+   "description": "NOTIFIC FEE SMS SMS NOTIFICATIONS =    0007",
+   "date": 20191004,
+   "amount": 0.0
+  },
+  {
+   "description": "NOTIFIC FEE SMS SMS NOTIFICATIONS =    0002",
+   "date": 20191017,
+   "amount": 0.0
+  }
+ ],
+ "income_transactions": [
+  {
+   "DIRECT CREDIT DISC": {
+    "no_of_transactions": 1,
+    "total": 31821.28
+   }
+  },
+  {
+   "LFCC CAMERA": {
+    "no_of_transactions": 1,
+    "total": 750.0
+   }
+  }
+ ]
+}

@@ -1,0 +1,219 @@
+{
+ "transactions": [
+  {
+   "Date": 20191025,
+   "Description": "DIRECT CREDIT DISC 096042",
+   "Amount": 31821.28
+  },
+  {
+   "Date": 20191026,
+   "Description": "DEBIT ORDER DEBIT ABSA LIFE 6603572991",
+   "Amount": -50.0
+  },
+  {
+   "Date": 20191030,
+   "Description": "ABSA CF CT TRANSF LFCC CAMERAOCT19",
+   "Amount": 750.0
+  },
+  {
+   "Date": 20191031,
+   "Description": "DIRECT DEBIT MONITOR24H24HRFGW119556  HMM",
+   "Amount": -127.11
+  },
+  {
+   "Date": 20191031,
+   "Description": "TRANSACTION CHARGE",
+   "Amount": -9.0
+  },
+  {
+   "Date": 20191031,
+   "Description": "ABSA DIRECT INET/MOB FEE/FOOI",
+   "Amount": 0.0
+  },
+  {
+   "Date": 20191031,
+   "Description": "INTERNET BANK FEE",
+   "Amount": -87.25
+  },
+  {
+   "Date": 20191101,
+   "Description": "NAEDO TRACK INTL ABSAHLOAN//08075241497/01",
+   "Amount": -4709.39
+  },
+  {
+   "Date": 20191101,
+   "Description": "DIRECT DEBIT AFRIFORUM AFRI  001326984980",
+   "Amount": -107.0
+  },
+  {
+   "Date": 20191101,
+   "Description": "TRANSACTION CHARGE",
+   "Amount": -9.0
+  },
+  {
+   "Date": 20191101,
+   "Description": "DIRECT DEBIT DISC INVT 1024274274-2061451",
+   "Amount": -899.31
+  },
+  {
+   "Date": 20191101,
+   "Description": "TRANSACTION CHARGE",
+   "Amount": -9.0
+  },
+  {
+   "Date": 20191101,
+   "Description": "DIRECT DEBIT DISCLIFE  5131055336-2054515",
+   "Amount": -830.87
+  },
+  {
+   "Date": 20191101,
+   "Description": "TRANSACTION CHARGE",
+   "Amount": -9.0
+  },
+  {
+   "Date": 20191101,
+   "Description": "DIRECT DEBIT CARTRACK  CART29K9D1Q6Z2V",
+   "Amount": -157.46
+  },
+  {
+   "Date": 20191101,
+   "Description": "TRANSACTION CHARGE",
+   "Amount": -9.0
+  },
+  {
+   "Date": 20191101,
+   "Description": "DIRECT DEBIT MTN SP    A3956291  01811279",
+   "Amount": -356.18
+  },
+  {
+   "Date": 20191101,
+   "Description": "TRANSACTION CHARGE",
+   "Amount": -9.0
+  },
+  {
+   "Date": 20191101,
+   "Description": "DIRECT DEBIT OMSUREPREM621767194-00323118",
+   "Amount": -1225.32
+  },
+  {
+   "Date": 20191101,
+   "Description": "TRANSACTION CHARGE",
+   "Amount": -9.0
+  },
+  {
+   "Date": 20191101,
+   "Description": "DIRECT DEBIT MULTID FORMEALS       986605",
+   "Amount": -180.0
+  },
+  {
+   "Date": 20191101,
+   "Description": "TRANSACTION CHARGE",
+   "Amount": -9.0
+  },
+  {
+   "Date": 20191101,
+   "Description": "DIRECT DEBIT HH FONDS  NOV01 HHF191110098",
+   "Amount": -50.0
+  },
+  {
+   "Date": 20191101,
+   "Description": "TRANSACTION CHARGE",
+   "Amount": -9.0
+  },
+  {
+   "Date": 20191101,
+   "Description": "INETBNK PAY DEBIT ABSA BANK Ouma",
+   "Amount": -500.0
+  },
+  {
+   "Date": 20191102,
+   "Description": "INETBNK PAY DEBIT ABSA BANK LFCC Tithes",
+   "Amount": -5100.0
+  },
+  {
+   "Date": 20191102,
+   "Description": "INETBNK PAY DEBIT ABSA BANK LFCC Great Comm",
+   "Amount": -300.0
+  },
+  {
+   "Date": 20191102,
+   "Description": "INETBNK PAY DEBIT ABSA BANK Crystal Cove",
+   "Amount": -3547.63
+  },
+  {
+   "Date": 20191102,
+   "Description": "INETBNK PAY DEBIT ABSA BANK City of Johannesbu",
+   "Amount": -551.56
+  },
+  {
+   "Date": 20191102,
+   "Description": "INETBNK PAY DEBIT ABSA BANK Telkom",
+   "Amount": -649.0
+  },
+  {
+   "Date": 20191102,
+   "Description": "INETBNK PAY DEBIT ABSA BANK Canvas and Art",
+   "Amount": -36.0
+  },
+  {
+   "Date": 20191102,
+   "Description": "INETBNK TRF DEBIT ABSA BANK 5471200344452011",
+   "Amount": -12000.0
+  },
+  {
+   "Date": 20191102,
+   "Description": "INETBNK PAY DEBIT ABSA BANK SatrixNOW",
+   "Amount": -1000.0
+  },
+  {
+   "Date": 20191102,
+   "Description": "DIRECT DEBIT MWBSA     MWBSA9909189",
+   "Amount": -72.0
+  },
+  {
+   "Date": 20191102,
+   "Description": "TRANSACTION CHARGE",
+   "Amount": -9.0
+  },
+  {
+   "Date": 20191103,
+   "Description": "ADMIN FEE",
+   "Amount": 0.0
+  },
+  {
+   "Date": 20191103,
+   "Description": "ADMINISTRATION FEE",
+   "Amount": -26.0
+  },
+  {
+   "Date": 20191105,
+   "Description": "NOTIFIC FEE SMS SMS NOTIFICATIONS =    0003",
+   "Amount": 0.0
+  },
+  {
+   "Date": 20191105,
+   "Description": "NOTIFICATION FEE",
+   "Amount": -1.8
+  },
+  {
+   "Date": 20191116,
+   "Description": "ATM WITHDRAWAL  CARD NO. 1049",
+   "Amount": -400.0
+  },
+  {
+   "Date": 20191116,
+   "Description": "TRANSACTION CHARGE",
+   "Amount": -10.5
+  },
+  {
+   "Date": 20191117,
+   "Description": "NOTIFIC FEE SMS SMS NOTIFICATIONS =    0004",
+   "Amount": 0.0
+  },
+  {
+   "Date": 20191117,
+   "Description": "NOTIFICATION FEE",
+   "Amount": -2.4
+  }
+ ]
+}
