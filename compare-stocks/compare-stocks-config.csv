@@ -1,0 +1,12 @@
+Type,Name,Validation Symbol
+Valuation,pe_ratio,<
+Valuation,ps_ratio,<
+Valuation,pb_ratio,<
+Valuation,dividend_yield,>
+Valuation,dividend_payout_ratio,<
+Profitability,return_on_assets,>
+Profitability,return_on_equity,>
+Profitability,profit_margin,>
+Debt,debt_to_equity_ratio,<
+Efficiency,asset_turnover_ratio,>
+Efficiency,inventory_turnover_ratio,>

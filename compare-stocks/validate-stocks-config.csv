@@ -1,0 +1,6 @@
+Type,Name,Validation Symbol,Validation Value
+Valuation,peg_ratio,<,1.0
+Valuation,dividend_payout_ratio,<,70
+Liquidity,current_ratio,>,1.0
+Liquidity,quick_ratio,>,1.0
+Debt,interest_coverage_ratio,>,1.0
