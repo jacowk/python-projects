@@ -44,79 +44,101 @@ def run():
     #input_letters = ['hay', 'si', 'me'] #Hashem (The Name)
     #input_letters = ['al', 'la', 'va', 'hay', 'yo', 'me'] #Elohim
     input_letters = ['re', 'sa', 'het'] #mercy
+    #input_letters = ['ta', 'si', 'va', 'be', 'he'] #repentance
 
     hebrew_numbers = json.loads(open('hebrew-numbers.json', 'r').read())
     hebrew_pict = json.loads(open('hebrew-pictographs.json', 'r').read())
     hebrew_unicode = json.loads(open('hebrew-unicode.json', 'r').read())
     hebrew_acc = json.loads(open('hebrew-accepted-input.json', 'r').read())
     number_meanings = json.loads(open('number-meanings.json', 'r').read())
-    prime_numbers = [2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, 97, 101, 103, 107, 109, 113, 127, 131, 137, 139, 149, 151, 157, 163, 167, 173, 179, 181, 191, 193, 197, 199, 211, 223, 227, 229, 233, 239, 241, 251, 257, 263, 269, 271, 277, 281, 283, 293, 307, 311, 313, 317, 331, 337, 347, 349, 353, 359, 367, 373, 379, 383, 389, 397, 401, 409, 419, 421, 431, 433, 439, 443, 449, 457, 461, 463, 467, 479, 487, 491, 499, 503, 509, 521, 523, 541]
-    #divisibles = [2, 3, 4, 5, 6, 7, 8, 9, 10, 12, 50]
-    divisibles = range(2, 20)
 
     output_hebrew_letters(input_letters, hebrew_unicode, hebrew_acc)
     process_pictographs(input_letters, hebrew_pict, hebrew_acc)
     process_numbers(input_letters, hebrew_numbers, hebrew_acc, number_meanings)
     total = process_number_totals(input_letters, hebrew_numbers, hebrew_acc, number_meanings)
-    process_divisibles(total, divisibles, number_meanings)
+    is_prime_number(total)
+    process_divisibles(total, number_meanings)
 
 def output_hebrew_letters(input_letters, hebrew_unicode, hebrew_acc):
-    print("\nHebrew Letters:")
+    print(heading("Hebrew Letters:"))
     output = u""
     for letter in input_letters:
         correct_letter = hebrew_acc[letter]
-        print(u"{} ({})".format(hebrew_unicode[correct_letter], correct_letter))
+        print(u"{}: {}".format(correct_letter, hebrew_unicode[correct_letter]))
         output += u"{}".format(hebrew_unicode[correct_letter])
     print("Complete word: {}".format(output))
 
 def process_pictographs(input_letters, hebrew_pict, hebrew_acc):
-    print("\nHebrew Pictographs:")
+    print(heading("Hebrew Pictographs:"))
     for letter in input_letters:
         correct_letter = hebrew_acc[letter]
         print(correct_letter + " - " + hebrew_pict[correct_letter])
 
 #TODO Create a JSON file file number meanings aswell
 def process_numbers(input_letters, hebrew_numbers, hebrew_acc, number_meanings):
-    print("\nHebrew Numbers")
+    print(heading("Hebrew Numbers (Geomatria)"))
     for letter in input_letters:
         correct_letter = hebrew_acc[letter]
-        print("{} - {} ({})".format(correct_letter, \
+        print("{} - {} {}".format(correct_letter, \
               hebrew_numbers[correct_letter], \
               get_number_meaning(hebrew_numbers[correct_letter], number_meanings)))
 
 def process_number_totals(input_letters, hebrew_numbers, hebrew_acc, number_meanings):
-    print("\nHebrew Number Totals")
+    print(heading("Hebrew Number Totals"))
     total = 0
     for letter in input_letters:
         correct_letter = hebrew_acc[letter]
         number = int(hebrew_numbers[correct_letter])
         total += number
     
-    print("Total: {} ({})".format(str(total), get_number_meaning(total, number_meanings)))
+    print("Total: {} {}".format(str(total), get_number_meaning(total, number_meanings)))
     return total
 
 # Add divisibles to a JSON file
-def process_divisibles(total, divisibles, number_meanings):
-    print("\nProcessing Divisibles")
-    for divisible in divisibles:
+def process_divisibles(total, number_meanings):
+    print(heading("Processing Divisibles"))
+    for divisible in range(2, total):
         remainder = total % divisible
         result = int(total / divisible)
         if remainder == 0:
             print ("\nDivisible by {}: {} * {} = {}".format(str(divisible), \
                    str(divisible), round(result), str(total)))
-            print("{} ({})".format(divisible, get_number_meaning(str(divisible), number_meanings)))
-            print("{} ({})".format(result, get_number_meaning(str(result), number_meanings)))
+            print("{} {}".format(divisible, get_number_meaning(str(divisible), number_meanings)))
+            print("{} {}".format(result, get_number_meaning(str(result), number_meanings)))
 
 def get_number_meaning(number, number_meanings):
     try:
-        return number_meanings[number]
+        return "({})".format(number_meanings[number])
     except:
-        return "No meaning available"
+        return ""
 
 def read_file(filename):
     f = open(filename, 'r')
     data = f.read()
     return data
+
+#Source: https://www.geeksforgeeks.org/python-program-to-check-whether-a-number-is-prime-or-not/
+def is_prime_number(num):  
+    # If given number is greater than 1 
+    if num > 1: 
+          
+       # Iterate from 2 to n / 2  
+       for i in range(2, num//2): 
+             
+           # If num is divisible by any number between  
+           # 2 and n / 2, it is not prime  
+           if (num % i) == 0: 
+               print(num, "is not a prime number") 
+               break
+       else: 
+           print(num, "is a prime number") 
+      
+    else: 
+       print(num, "is not a prime number") 
+
+def heading(value):
+    decoration = "==" * 5
+    return "\n" + decoration + value + decoration
 
 run()
 #print_all_letters()
