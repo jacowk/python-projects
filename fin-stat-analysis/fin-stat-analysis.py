@@ -53,22 +53,23 @@ from model import expense_transaction_types, income_transaction_types, prepare_d
 from shutil import copyfile
 
 current_date_time = datetime.today().strftime('%Y-%m-%d %H:%M:%S')
-input_filename = "SavingsTransactionHistory"
-date = "201911"
+date = "202002"
+input_filename = "SavingsTransactionHistory" + date
+base_path = "/home/jaco/python-data/fin-stat-analysis"
 account_type = "Savings"
-output_path = os.path.join(account_type, date)
+output_path = os.path.join(base_path, account_type, date)
 prepare_directory(output_path)
 
-input_copy_filename = "{}{}.csv".format(input_filename,date)
-input_copy_filename_path = os.path.join(output_path, input_copy_filename)
+input_copy_filename = "{}.csv".format(input_filename)
+input_copy_filename_path = os.path.join(base_path, output_path, input_copy_filename)
 
 copyfile("{}.csv".format(input_filename), input_copy_filename_path)
 
 transaction_filename = "{}TransactionHistory{}.json".format(account_type, date)
-transaction_path = os.path.join(output_path, transaction_filename)
+transaction_path = os.path.join(base_path, output_path, transaction_filename)
 
 summary_filename = "{}TransactionSummary{}.json".format(account_type, date)
-summary_path = os.path.join(output_path, summary_filename)
+summary_path = os.path.join(base_path, output_path, summary_filename)
 
 summary = {"date stamp": current_date_time, "period": date}
 
