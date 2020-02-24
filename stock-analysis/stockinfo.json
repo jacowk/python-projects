@@ -5,7 +5,7 @@
 
 	"descr_notes":"Notes:|* It seems like lower ratios are better, and higher percentages are better.|* Earnings going up, and stock prices coming down could mean buying opportunity|* Companies should use debt to fund long term growth opportunities, not to cover short-term debt to keep solvent. (See Current Ratio)",
     
-	"descr_pe_ratio":"Valuation: P/E Ratio|* What you need: Income Statement, Most recent stock price.|* Formula: P/E Ratio = Price per Share / Earnings per Share|* You are comparing the price to it's earnings.|* What it means: What price you would pay per $1 earnings|* Low P/E ratio are a value and better, underpriced in the market, varies between industries|* High P/E ratio is bad compared to a company with a low P/E ratio|* Overvalued and undervalued terms refers to this ratio.|",
+	"descr_pe_ratio":"Valuation: P/E Ratio|* What you need: Income Statement, Most recent stock price.|* Formula: P/E Ratio = Price per Share / Earnings per Share|* You are comparing the price to it's earnings.|* What it means: What price you would pay per $1 earnings|* Low P/E ratio are a value and better, underpriced in the market, varies between industries|* High P/E ratio is bad compared to a company with a low P/E ratio|* Overvalued and undervalued terms refers to this ratio.|* A negative PE ratio means the company has negative earnings, and is losing money.",
     
 	"descr_peg_ratio":"Valuation: PEG Ratio|* What you need: Income Statement, Most recent stock price.|* Formula: PEG Ratio = P/E Ratio / Projected Annual Growth in Earnings per Share|* Projected Annual Growth in Earnings per Share you will have to estimate|* PEG ratio below 1.0 is good, so the stock is considered undervalued.|* In comparing 2 PEG ratios, the smaller value is better.|",
 
