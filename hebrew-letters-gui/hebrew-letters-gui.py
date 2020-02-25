@@ -224,42 +224,71 @@ class HebrewLettersGui(Frame):
     def press_enter_button(self):
         # Load all JSON
         hebrew_numbers = json.loads(open('hebrew-numbers.json', 'r').read())
-        hebrew_pict = json.loads(open('hebrew-pictographs.json', 'r').read())
+        hebrew_pictographs = json.loads(open('hebrew-pictographs.json', 'r').read())
         hebrew_unicode = json.loads(open('hebrew-unicode.json', 'r').read())
         hebrew_acc = json.loads(open('hebrew-accepted-input.json', 'r').read())
+        hebrew_letter_names = json.loads(open('hebrew-letter-names.json', 'r').read())
         number_meanings = json.loads(open('number-meanings.json', 'r').read())
     
-        self.process_letter_names()
-        self.process_pictographs()
-        self.process_geomatria()
-        self.process_letter_totals()
-        self.process_divisibles()
+        self.process_letter_names(hebrew_letter_names)
+        self.process_pictographs(hebrew_pictographs, hebrew_letter_names)
+        self.process_geomatria(hebrew_numbers, number_meanings, hebrew_letter_names)
+        self.process_letter_totals(hebrew_numbers, hebrew_letter_names)
+        self.process_divisibles(hebrew_numbers, number_meanings, hebrew_letter_names)
         
     # Process letter names
-    def process_letter_names(self):
+    def process_letter_names(self, hebrew_letter_names):
         self._letter_names_text.delete("1.0", END) # Clear text
-        
-        self._letter_names_text.insert("1.0", self.hebrew_input_expression)
+        self._letter_names_text.insert("1.0", "Word Entered: " + self.hebrew_input_expression + "\n")
+        for letter in self.hebrew_input_expression:
+            self._letter_names_text.insert(END, letter + ": " + hebrew_letter_names[letter] + "\n")  
     
     # Process pictographs
-    def process_pictographs(self):
+    def process_pictographs(self, hebrew_pictographs, hebrew_letter_names):
         self._pictographs_text.delete("1.0", END) # Clear text
-        self._pictographs_text.insert("1.0", "TODO")
+        for letter in self.hebrew_input_expression:
+            letter_name = hebrew_letter_names[letter]
+            pictograph = str(hebrew_pictographs[letter_name]).replace("|", ", ")
+            self._pictographs_text.insert(END, letter + ": " + pictograph + "\n")
     
     # Process geomatria
-    def process_geomatria(self):
+    def process_geomatria(self, hebrew_numbers, number_meanings, hebrew_letter_names):
         self._geomatria_text.delete("1.0", END) # Clear text
-        self._geomatria_text.insert("1.0", "TODO")
+        for letter in self.hebrew_input_expression:
+            letter_name = hebrew_letter_names[letter]
+            number = hebrew_numbers[letter_name]
+            try:
+                meaning = number_meanings[number].replace("|", ", ")
+                self._geomatria_text.insert(END, letter + ": " + number + " - " + meaning + "\n")
+            except:
+                self._geomatria_text.insert(END, letter + ": " + number + "\n")
     
     # Process letter totals
-    def process_letter_totals(self):
+    def process_letter_totals(self, hebrew_numbers, hebrew_letter_names):
         self._totals_text.delete("1.0", END) # Clear text
-        self._totals_text.insert("1.0", "TODO")
-    
+        _sum = 0
+        for letter in self.hebrew_input_expression:
+            letter_name = hebrew_letter_names[letter]
+            number = hebrew_numbers[letter_name]
+            _sum += int(number)
+        self._totals_text.insert(END, "Sum = " + str(_sum) + "\n")
+        
     # Process divisibles
-    def process_divisibles(self):
+    def process_divisibles(self, hebrew_numbers, number_meanings, hebrew_letter_names):
         self._divisibles_text.delete("1.0", END) # Clear text
-        self._divisibles_text.insert("1.0", "TODO")
+        _sum = 0
+        for letter in self.hebrew_input_expression:
+            letter_name = hebrew_letter_names[letter]
+            number = hebrew_numbers[letter_name]
+            _sum += int(number)
+        self._divisibles_text.insert(END, "Total " + str(_sum) + " is divisible by:""\n")
+        for x in range(2, _sum - 1):
+            if (_sum % x) == 0:
+                try:
+                    meaning = number_meanings[str(x)].replace("|", ", ")
+                    self._divisibles_text.insert(END, str(x) + " - " + meaning + "\n")
+                except:
+                    self._divisibles_text.insert(END, str(x) + "\n")
 
 def main():
     HebrewLettersGui().mainloop()
