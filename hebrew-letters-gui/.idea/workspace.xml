@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="381e5445-d32a-4ff5-a50d-82ca8cb9eadd" name="Default Changelist" comment="" />
+    <list default="true" id="381e5445-d32a-4ff5-a50d-82ca8cb9eadd" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hebrew-accepted-input.json" beforeDir="false" afterPath="$PROJECT_DIR$/hebrew-accepted-input.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hebrew-letter-names.json" beforeDir="false" afterPath="$PROJECT_DIR$/hebrew-letter-names.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hebrew-letters-gui.py" beforeDir="false" afterPath="$PROJECT_DIR$/hebrew-letters-gui.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hebrew-numbers.json" beforeDir="false" afterPath="$PROJECT_DIR$/hebrew-numbers.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hebrew-pictographs.json" beforeDir="false" afterPath="$PROJECT_DIR$/hebrew-pictographs.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hebrew-unicode.json" beforeDir="false" afterPath="$PROJECT_DIR$/hebrew-unicode.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,6 +29,14 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings module-name="hebrew-letters-gui" is-module-sdk="true">
+        <option name="myUseModuleSdk" value="true" />
+        <option name="myModuleName" value="hebrew-letters-gui" />
+      </console-settings>
+    </option>
   </component>
   <component name="RunManager">
     <configuration name="hebrew-letters-gui" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
@@ -64,6 +80,10 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
+    <state x="532" y="214" key="FileChooserDialogImpl" timestamp="1582983499169">
+      <screen x="65" y="24" width="1301" height="744" />
+    </state>
+    <state x="532" y="214" key="FileChooserDialogImpl/65.24.1301.744@65.24.1301.744" timestamp="1582983499169" />
     <state width="1278" height="193" key="GridCell.Tab.0.bottom" timestamp="1582306801885">
       <screen x="65" y="24" width="1301" height="744" />
     </state>
@@ -80,9 +100,13 @@
       <screen x="65" y="24" width="1301" height="744" />
     </state>
     <state width="1278" height="193" key="GridCell.Tab.0.right/65.24.1301.744@65.24.1301.744" timestamp="1582306801884" />
-    <state x="209" y="24" key="SettingsEditor" timestamp="1582306797427">
+    <state x="209" y="24" key="SettingsEditor" timestamp="1582984211336">
       <screen x="65" y="24" width="1301" height="744" />
     </state>
-    <state x="209" y="24" key="SettingsEditor/65.24.1301.744@65.24.1301.744" timestamp="1582306797427" />
+    <state x="209" y="24" key="SettingsEditor/65.24.1301.744@65.24.1301.744" timestamp="1582984211335" />
+    <state x="376" y="211" key="com.intellij.ide.util.TipDialog" timestamp="1582983266829">
+      <screen x="65" y="24" width="1301" height="744" />
+    </state>
+    <state x="376" y="211" key="com.intellij.ide.util.TipDialog/65.24.1301.744@65.24.1301.744" timestamp="1582983266829" />
   </component>
 </project>
