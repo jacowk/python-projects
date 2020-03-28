@@ -14,6 +14,7 @@ mydb = mysql.connector.connect(
   database="mydatabase" # Auto select the database
 )
 
+"""
 mycursor = mydb.cursor()
 
 mycursor.execute("SELECT * FROM customers")
@@ -41,3 +42,5 @@ myresult = mycursor.fetchall()
 
 for x in myresult:
   print(x)
+
+"""

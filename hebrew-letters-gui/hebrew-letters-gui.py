@@ -107,6 +107,11 @@ class HebrewLettersGui(Frame):
         self._keyboard_frame = Frame(self, width=widget_width, height=text_area_height)
         self._keyboard_frame.grid(row=7, column=1, columnspan=3, padx=pad_x, pady=pad_y)
         
+        
+        self._save_button = Button(self._keyboard_frame, text="Save Hebrew Word", \
+                                     command=lambda: self.save_hebrew_word())
+        self._save_button.grid(row=8, column=0)
+        
         rowa = ['quph','resh','aleph','tet','waw','nun_final','mem_final','pey']
         rowb = ['shin','dalet','gimel','kaph','ayin','yod','chet','lamed','kaph_final','pey_final']
         rowc = ['zayin','samech','beyt','hey','nun','mem','tsade','taw','tsade_final']
@@ -384,7 +389,29 @@ Hanukkah 	Thurs-Fri, Dec. 10-18, 2020\n"
                     self._divisibles_text.insert(END, str(x) + " - " + meaning + "\n")
                 except:
                     self._divisibles_text.insert(END, str(x) + "\n")        
+
         
+    def save_hebrew_word(self):
+        save_hebrew_word_class = SaveHebrewWord()
+    
+class SaveHebrewWord(Frame):
+    
+    def __init__(self):
+        Frame.__init__(self)
+        pad_x = 5
+        pad_y = 5
+        self._english_word_label = Label(self, width=50, height=1, text="English Word")
+        self._english_word_label.grid(row=0, column=0, padx=pad_x, pady=pad_y)
+        
+        self._letter_button = Button(self, text="Save", \
+                                     command=lambda: self.save())
+        self._letter_button.grid(row=1, column=0)
+        
+    def save(self):
+        print("Saving")
+        
+    
+
 class CalculateHebrewDates():
 
     hebrew_month_dict = { 1: 'NISAN',
