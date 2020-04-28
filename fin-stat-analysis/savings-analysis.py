@@ -7,7 +7,7 @@ Created on Tue Jan  7 19:18:05 2020
 
 Read the CSV file
 
-Generate a JSON file for the given month's statement
+Generate a JSON file for the given month's savings account statement
 
 Write the JSON to date stamped file
 
@@ -53,7 +53,7 @@ from model import expense_transaction_types, income_transaction_types, prepare_d
 from shutil import copyfile
 
 current_date_time = datetime.today().strftime('%Y-%m-%d %H:%M:%S')
-date = "202002"
+date = "202003"
 input_filename = "SavingsTransactionHistory" + date
 base_path = "/home/jaco/python-data/fin-stat-analysis"
 account_type = "Savings"

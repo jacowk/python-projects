@@ -38,7 +38,7 @@ class MemoryNoteGui(Frame):
     def __init__(self):
         Frame.__init__(self)
         
-        widget_width = 80
+        widget_width = 20
         pad_x = 5
         pad_y = 5
         font_name = "Helvetica"
@@ -47,8 +47,62 @@ class MemoryNoteGui(Frame):
         self.master.title("Memory Notes")
         self.pack()
         
-        self._mem_note_id_label = Label(self, width=widget_width, height=1, text="id")
-        self._mem_note_note_label = Label(self, width=widget_width, height=1, text="Note")
+        #############################################################
+        self._mem_note_search_label = Label(self, width=widget_width, height=1, text="Search Memory Notes")
+        self._mem_note_id_label = Label(self, width=widget_width, height=1, text="ID")
+        self._mem_note_category_label = Label(self, width=widget_width, height=1, text="Category")
+        self._mem_note_status_label = Label(self, width=widget_width, height=1, text="Status")
         
+        # ID Input
+        self._id_input = StringVar()
+        self._id_entry = Entry(self, textvariable=self._id_input, width=widget_width, font=(font_name, font_size))
         
+        # Category Dropdown
+        self._category_list = ["Scriptures","Vocabulary"]
+        self._category_combo = ttk.Combobox(self, width=widget_width, 
+                                            values=self._category_list, font=(font_name, font_size))
+        self._category_combo.bind("<<ComboboxSelected>>", self.category_selected)
         
+        # Status Dropdown
+        self._status_list = ["Pending","Active","Deleted"]
+        self._status_combo = ttk.Combobox(self, width=widget_width, 
+                                            values=self._status_list, font=(font_name, font_size))
+        self._status_combo.bind("<<ComboboxSelected>>", self.status_selected)
+        
+        #############################################################
+        
+        # Search button
+        self._search_button = Button(self, text="Search", 
+                                     command=lambda: self.press_search_button())
+        self._search_button.grid(row=2, column=2)
+        
+        #############################################################
+        # Grid
+        self._mem_note_search_label.grid(row=0, column=0, columnspan=6, padx=pad_x, pady=pad_y)
+        self._mem_note_id_label.grid(row=1, column=0, padx=pad_x, pady=pad_y)
+        self._id_entry.grid(row=1, column=1, padx=pad_x, pady=pad_y)
+        
+        self._mem_note_category_label.grid(row=1, column=2, padx=pad_x, pady=pad_y)
+        self._category_combo.grid(row=1, column=3, padx=pad_x, pady=pad_y)
+        
+        self._mem_note_status_label.grid(row=1, column=4, padx=pad_x, pady=pad_y)
+        self._status_combo.grid(row=1, column=5, padx=pad_x, pady=pad_y)
+        
+    def category_selected(self, select_event):
+        self._selected_category = self._category_combo.get()
+        
+    def status_selected(self, select_event):
+        self._selected_status = self._status_combo.get()
+        
+    def press_search_button(self):
+        print("ID: %s" % self._id_input)
+        print("Category: %s" % self._selected_category)
+        print("Status: %s" % self._selected_status)
+        
+def main():
+    print("Hello world")
+    memory_note_gui = MemoryNoteGui()
+    memory_note_gui.mainloop()
+
+main()
+

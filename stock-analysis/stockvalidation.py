@@ -156,11 +156,11 @@ def compare_return_on_equity(return_on_equity1, return_on_equity2):
     output = "Validation Result:\nThe higher ROE is better.\n"
     if return_on_equity1 > return_on_equity2:
         return output + "ROE {:f} is more favourable than ROE \
-{:f}. The company generates more profits using for every $1 of equity\
+{:f}. The company generates more profits for every $1 of equity\
 ".format(return_on_equity1, return_on_equity2)
     elif return_on_equity1 < return_on_equity2:
         return output + "ROE {:f} is less favourable than ROE \
-{:f}. The company generates less profits using for every $1 of equity\
+{:f}. The company generates less profits for every $1 of equity\
 ".format(return_on_equity1, return_on_equity2)
     else:
         return output + "Equal ROEs {:f} and {:f}, so neither is \
