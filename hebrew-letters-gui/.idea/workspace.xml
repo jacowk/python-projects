@@ -2,18 +2,42 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="381e5445-d32a-4ff5-a50d-82ca8cb9eadd" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../bible-genealogy/.idea/bible-genealogy.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bible-genealogy/bible_genealogy_gui.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bible-genealogy/bible_genealogy_json.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bible-genealogy/chronicles1_genealogy.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bible-genealogy/chronicles1_kingsofedom_genealogy.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bible-genealogy/chronicles1_seir_genealogy.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bible-genealogy/genealogy-matthew.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bible-genealogy/genealogy_selection.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bible-genealogy/generate_json.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bible-genealogy/treeview_example.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fin-stat-analysis/.idea/fin-stat-analysis.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../financially-free/.idea/financially-free.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gmail/.idea/gmail.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/date-util.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../utils/.idea/utils.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fin-stat-analysis/credit-card-analysis.py" beforeDir="false" afterPath="$PROJECT_DIR$/../fin-stat-analysis/credit-card-analysis.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fin-stat-analysis/savings-analysis.py" beforeDir="false" afterPath="$PROJECT_DIR$/../fin-stat-analysis/savings-analysis.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmail/delete-gmail.py" beforeDir="false" afterPath="$PROJECT_DIR$/../gmail/delete-gmail.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmail/gmail-api.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmail/manage-gmail" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmail/manage-gmail.py" beforeDir="false" afterPath="$PROJECT_DIR$/../gmail/manage-gmail.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hebrew-accepted-input.json" beforeDir="false" afterPath="$PROJECT_DIR$/hebrew-accepted-input.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hebrew-letter-names.json" beforeDir="false" afterPath="$PROJECT_DIR$/hebrew-letter-names.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hebrew-letters-gui.py" beforeDir="false" afterPath="$PROJECT_DIR$/hebrew-letters-gui.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hebrew-numbers.json" beforeDir="false" afterPath="$PROJECT_DIR$/hebrew-numbers.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hebrew-pictographs.json" beforeDir="false" afterPath="$PROJECT_DIR$/hebrew-pictographs.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hebrew-unicode.json" beforeDir="false" afterPath="$PROJECT_DIR$/hebrew-unicode.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hebrew-mnemonics.json" beforeDir="false" afterPath="$PROJECT_DIR$/hebrew-mnemonics.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -22,12 +46,12 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../bible-genealogy" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="PyConsoleOptionsProvider">
@@ -38,7 +62,28 @@
       </console-settings>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.hebrew-letters-gui">
+    <configuration name="date-util" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="hebrew-letters-gui" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/date-util.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="hebrew-letters-gui" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="hebrew-letters-gui" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -63,6 +108,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.hebrew-letters-gui" />
+        <item itemvalue="Python.date-util" />
       </list>
     </recent_temporary>
   </component>
@@ -80,33 +126,29 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="532" y="214" key="FileChooserDialogImpl" timestamp="1582983499169">
+    <state x="482" y="136" width="424" height="482" key="FileChooserDialogImpl" timestamp="1595763055093">
       <screen x="65" y="24" width="1301" height="744" />
     </state>
-    <state x="532" y="214" key="FileChooserDialogImpl/65.24.1301.744@65.24.1301.744" timestamp="1582983499169" />
-    <state width="1278" height="193" key="GridCell.Tab.0.bottom" timestamp="1582306801885">
+    <state x="482" y="136" width="424" height="482" key="FileChooserDialogImpl/65.24.1301.744@65.24.1301.744" timestamp="1595763055093" />
+    <state width="1278" height="193" key="GridCell.Tab.0.bottom" timestamp="1595751893430">
       <screen x="65" y="24" width="1301" height="744" />
     </state>
-    <state width="1278" height="193" key="GridCell.Tab.0.bottom/65.24.1301.744@65.24.1301.744" timestamp="1582306801885" />
-    <state width="1278" height="193" key="GridCell.Tab.0.center" timestamp="1582306801883">
+    <state width="1278" height="193" key="GridCell.Tab.0.bottom/65.24.1301.744@65.24.1301.744" timestamp="1595751893430" />
+    <state width="1278" height="193" key="GridCell.Tab.0.center" timestamp="1595751893428">
       <screen x="65" y="24" width="1301" height="744" />
     </state>
-    <state width="1278" height="193" key="GridCell.Tab.0.center/65.24.1301.744@65.24.1301.744" timestamp="1582306801883" />
-    <state width="1278" height="193" key="GridCell.Tab.0.left" timestamp="1582306801882">
+    <state width="1278" height="193" key="GridCell.Tab.0.center/65.24.1301.744@65.24.1301.744" timestamp="1595751893428" />
+    <state width="1278" height="193" key="GridCell.Tab.0.left" timestamp="1595751893427">
       <screen x="65" y="24" width="1301" height="744" />
     </state>
-    <state width="1278" height="193" key="GridCell.Tab.0.left/65.24.1301.744@65.24.1301.744" timestamp="1582306801882" />
-    <state width="1278" height="193" key="GridCell.Tab.0.right" timestamp="1582306801884">
+    <state width="1278" height="193" key="GridCell.Tab.0.left/65.24.1301.744@65.24.1301.744" timestamp="1595751893427" />
+    <state width="1278" height="193" key="GridCell.Tab.0.right" timestamp="1595751893429">
       <screen x="65" y="24" width="1301" height="744" />
     </state>
-    <state width="1278" height="193" key="GridCell.Tab.0.right/65.24.1301.744@65.24.1301.744" timestamp="1582306801884" />
-    <state x="209" y="24" key="SettingsEditor" timestamp="1582984211336">
+    <state width="1278" height="193" key="GridCell.Tab.0.right/65.24.1301.744@65.24.1301.744" timestamp="1595751893429" />
+    <state x="209" y="24" key="SettingsEditor" timestamp="1589702862725">
       <screen x="65" y="24" width="1301" height="744" />
     </state>
-    <state x="209" y="24" key="SettingsEditor/65.24.1301.744@65.24.1301.744" timestamp="1582984211335" />
-    <state x="376" y="211" key="com.intellij.ide.util.TipDialog" timestamp="1582983266829">
-      <screen x="65" y="24" width="1301" height="744" />
-    </state>
-    <state x="376" y="211" key="com.intellij.ide.util.TipDialog/65.24.1301.744@65.24.1301.744" timestamp="1582983266829" />
+    <state x="209" y="24" key="SettingsEditor/65.24.1301.744@65.24.1301.744" timestamp="1589702862725" />
   </component>
 </project>

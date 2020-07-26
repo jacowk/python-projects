@@ -18,6 +18,12 @@ import json
 import pprint
 import base64
 import email
+from apiclient import errors
+import pickle
+import os.path
+from googleapiclient.discovery import build
+from google_auth_oauthlib.flow import InstalledAppFlow
+from google.auth.transport.requests import Request
 
 # If modifying these scopes, delete the file token.pickle.
 SCOPES = ['https://www.googleapis.com/auth/gmail.readonly']
@@ -82,6 +88,21 @@ def GetMimeMessage(service, user_id, msg_id):
   except errors.HttpError as error:
     print('An error occurred: %s' % error)
 
+def DeleteMessage(service, user_id, msg_id):
+  """Delete a Message.
+
+  Args:
+    service: Authorized Gmail API service instance.
+    user_id: User's email address. The special value "me"
+    can be used to indicate the authenticated user.
+    msg_id: ID of Message to delete.
+  """
+  try:
+    service.users().messages().delete(userId=user_id, id=msg_id).execute()
+    print('Message with id: %s deleted successfully.' % msg_id)
+  except errors.HttpError as error:
+    print('An error occurred: %s' % error)
+
 def print_section_divider():
     print("==" * 20)
 
@@ -120,8 +141,6 @@ def main():
     for item in gmail_json: # For each dictionary
         msg_id = item["id"] # Get the id dictionary item
         print_section_divider()
-        print(msg_id)
-        print_section_divider()
         
         # Retrieve the Gmail message
         user_id='me'
@@ -144,13 +163,18 @@ def main():
             if header['name'] == "To":
                 to_email = header['value']
         print(msg_id, from_email, to_email, date_received, subject)
-        
+
+        # Delete selected message
+        if from_email == "John Crestani <john@johncrestani.com>":
+            print("Deleting " + msg_id)
+            DeleteMessage(service, user_id, msg_id)
+
         # Print message
         #print('Message snippet: %s' % message['snippet'])
         #pprint.pprint(message)
         
         # Limit to certain amount of messages
-        if cnt == 1:
+        if cnt == 5:
             break
         else:
             cnt += 1

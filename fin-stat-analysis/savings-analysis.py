@@ -53,7 +53,7 @@ from model import expense_transaction_types, income_transaction_types, prepare_d
 from shutil import copyfile
 
 current_date_time = datetime.today().strftime('%Y-%m-%d %H:%M:%S')
-date = "202003"
+date = "202004"
 input_filename = "SavingsTransactionHistory" + date
 base_path = "/home/jaco/python-data/fin-stat-analysis"
 account_type = "Savings"

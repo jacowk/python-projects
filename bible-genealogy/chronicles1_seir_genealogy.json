@@ -1,0 +1,66 @@
+{
+  "name": "Seir",
+  "note": "The Horite, in Edom",
+  "children": [
+	{
+		"name": "Lotan",
+		"children": [
+			{ "name": "Hori", "children": [] },
+			{ "name": "Homam", "children": [] }
+		]
+	},
+	{
+		"name": "Timna",
+		"relationship": "daughter",
+		"note": "Lotan's sister",
+		"children": []
+	},
+	{
+		"name": "Shobal",
+		"children": [
+			{ "name": "Alian", "children": [] },
+			{ "name": "Manahath", "children": [] },
+			{ "name": "Ebal", "children": [] },
+			{ "name": "Shephi", "children": [] },
+			{ "name": "Onam", "children": [] }
+		]
+	},
+	{
+		"name": "Zibeon",
+		"children": [
+			{ "name": "Ajah", "children": [] },
+			{
+				"name": "Anah",
+				"children": [
+					{ "name": "Dishon", "children": [] }
+				]
+			}
+		]
+	},
+	{ "name": "Anah", "children": [] },
+	{
+		"name": "Dishon",
+		"children": [
+			{ "name": "Hamran", "children": [] },
+			{ "name": "Eshban", "children": [] },
+			{ "name": "Ithran", "children": [] },
+			{ "name": "Cheran", "children": [] }
+		]
+	},
+	{
+		"name": "Ezer",
+		"children": [
+			{ "name": "Bilhan", "children": [] },
+			{ "name": "Zaavan", "children": [] },
+			{ "name": "Jaakan", "children": [] }
+		]
+	},
+	{
+		"name": "Dishan",
+		"children": [
+			{ "name": "Uz", "children": [] },
+			{ "name": "Aran", "children": [] }
+		]
+	}
+  ]
+}

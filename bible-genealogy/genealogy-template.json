@@ -1,0 +1,26 @@
+{
+
+  "name": "John",
+  "children": [
+    {
+      "name":"Jim",
+      "mother": "Anna",
+      "father": "Jether the Ishmaelite",
+      "relationship": "son|daughter",
+      "note": "Some note",
+      "scripture": "Joshua 7:1",
+      "children" : [
+        {
+          "name": "Jack",
+          "children" : [
+            { "name": "Jess" },
+            { "name": "Jason" }
+          ]
+        },
+        { "name": "Jet" }
+      ]
+    },
+    { "name":"Jim", "children" : [] }
+  ]
+
+}

@@ -37,6 +37,7 @@ import tkinter.ttk as ttk # For the Combobox
 import tkinter.scrolledtext as scrolledtext
 import json
 from convertdate import hebrew
+import datetime
 
 class HebrewLettersGui(Frame):
     
@@ -46,7 +47,7 @@ class HebrewLettersGui(Frame):
         Frame.__init__(self)
         
         widget_width = 80
-        text_area_height = 15
+        text_area_height = 8
         pad_x = 5
         pad_y = 5
         font_name = "Helvetica"
@@ -350,7 +351,13 @@ class HebrewLettersGui(Frame):
     # Process Hebrew Dates
     def process_hebrew_dates(self):        
         calc_heb_dates = CalculateHebrewDates()
-        hebrew_date = calc_heb_dates.calc_hebrew_date(2020, 2, 29)
+
+        x = datetime.datetime.now()
+        day = x.strftime("%d")
+        month = x.strftime("%m")
+        year = x.strftime("%Y")
+
+        hebrew_date = calc_heb_dates.calc_hebrew_date(year, month, day)
         heb_year = hebrew_date[0]
         heb_month = hebrew_date[1]
         heb_day = hebrew_date[2]
@@ -429,8 +436,8 @@ class CalculateHebrewDates():
                          13: 'VEADAR'
     }
     
-    def calc_hebrew_date(self, year, month, name):
-        return hebrew.from_gregorian(2020, 2, 29)
+    def calc_hebrew_date(self, year, month, day):
+        return hebrew.from_gregorian(int(year), int(month), int(day))
 
     def get_hebrew_month_name(self, month):
         return self.hebrew_month_dict[month]

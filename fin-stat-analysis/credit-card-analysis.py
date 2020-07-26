@@ -53,7 +53,7 @@ from credit_card_model import expense_transaction_types, income_transaction_type
 from shutil import copyfile
 
 current_date_time = datetime.today().strftime('%Y-%m-%d %H:%M:%S')
-date = "202002"
+date = "202004"
 input_filename = "CreditCardTransactionHistory" + date
 base_path = "/home/jaco/python-data/fin-stat-analysis"
 account_type = "CreditCard"
