@@ -16,11 +16,16 @@ class BibleGenealogyGui(Frame):
     def __init__(self):
         Frame.__init__(self)
 
-        Continue 2 Chron 2:46
+        #Continue 1 Chron 2:50
+        #https://www.askpython.com/python-modules/tkinter/tkinter-treeview-widget
 
         # data = bg.retrieve_json("genealogy-matthew.json")
-        data = bg.retrieve_json("chronicles1_genealogy.json")
+        data = bg.retrieve_json("1chronicles_genealogy.json")
         # data = bg.retrieve_json("chronicles1_seir_genealogy.json")
+        # data = bg.retrieve_json("test.json")
+        # data = bg.retrieve_json("matthew1_genealogy.json")
+        # data = bg.retrieve_json("luke3_genealogy.json")
+        # data = bg.retrieve_json("genesis10_genealogy.json")
         #Remember the kings of Edom - requires a different JSON structure
 
         self.master.title("Bible Genealogy")
@@ -32,25 +37,34 @@ class BibleGenealogyGui(Frame):
         self.genealogy_selection_combo = ttk.Combobox(self, width=20, values=self.genealogy_selection_list)
         self.genealogy_selection_combo.bind("<<ComboboxSelected>>", self.genealogy_selected)
 
-        self._count = 0
+        self._count = 1
 
-        self.treeview = ttk.Treeview(self)
+        self.treeview = ttk.Treeview(self, selectmode = 'browse')
         self.treeview.config(height=30)
         self.treeview.pack(expand=YES, fill=BOTH)
         self.treeview.heading("#0", text="Genealogy")
-        self.treeview.column("#0", minwidth=1024, width=1024, stretch=NO)
+        # By setting minwidth > width, and stretch=True, horizontal scrollbar works
+        self.treeview.column("#0", minwidth=2560, width=1024, stretch=True)
         # Automatically expand all nodes on open
         self.treeview.bind('<<TreeviewOpen>>', self.handleOpenEvent)
 
+        # Constructing horizontal scrollbar with treeview
+        self.horizontal_scrollbar = ttk.Scrollbar(self,
+                                                  orient="horizontal",
+                                                  command=self.treeview.xview)
+        # Configuring treeview
+        self.treeview.configure(xscrollcommand=self.horizontal_scrollbar.set)
+
+        #----------------------------------------------------------
         # Constructing vertical scrollbar with treeview
-        horscrlbar = ttk.Scrollbar(self,
-                                   orient="horizontal",
-                                   command=self.treeview.xview)
-        # Calling pack method w.r.to verical scrollbar
-        horscrlbar.pack(side='right', fill='x')
+        self.vertical_scrollbar = ttk.Scrollbar(self,
+                                                orient="vertical",
+                                                command=self.treeview.yview)
 
         # Configuring treeview
-        self.treeview.configure(yscrollcommand=horscrlbar.set)
+        self.treeview.configure(yscrollcommand=self.vertical_scrollbar.set)
+
+        #----------------------------------------------------------
 
         first_name = "{}_{}".format(data['name'], str(self._count))
         self._count = self._count + 1
@@ -59,13 +73,10 @@ class BibleGenealogyGui(Frame):
         for child in first_children:
             self.add_item(first_name, child)
 
-        #self.treeview.insert('', '0', 'item1', text = "First Item")
-        #self.treeview.insert('', '1', 'item2', text="Second Item")
-        #self.treeview.insert('', 'end', 'item3', text="Third Item")
-        #self.treeview.insert('item2', 'end', 'item4', text="Fourth Item")
-
         # Place on grid
-        #self.treeview.grid(row=0,column=0)
+        self.treeview.grid(row=0, column=0)
+        self.vertical_scrollbar.grid(row=0, column=2, rowspan=2, sticky=NS)
+        self.horizontal_scrollbar.grid(row=1, column=0, columnspan=2, sticky=EW)
         #self.genealogy_selection_combo.grid(row=1, column=0)
 
     def add_item(self, parent_name, item):

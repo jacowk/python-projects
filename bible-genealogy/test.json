@@ -1,0 +1,31 @@
+{
+  "name": "Regem",
+  "children": [
+    {
+      "name": "Jotham",
+      "children": [
+        {
+          "name": "Geshan",
+          "children": [
+            {
+              "name": "Pelet",
+              "children": [
+                {
+                  "name": "Ephah",
+                  "children": [
+                    {
+                      "name": "Shaaph",
+                      "children": [
+                        {}
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

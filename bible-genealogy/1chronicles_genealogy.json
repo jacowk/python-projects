@@ -495,6 +495,66 @@
                                                                                                               ]
                                                                                                             }
                                                                                                           ]
+                                                                                                        },
+                                                                                                        {
+                                                                                                          "name": "Haran",
+                                                                                                          "mother": "Ephah, Caleb's concubine",
+                                                                                                          "children": [
+                                                                                                            { "name": "Gazez", "children": [] }
+                                                                                                          ]
+                                                                                                        },
+                                                                                                        {
+                                                                                                          "name": "Moza",
+                                                                                                          "mother": "Ephah, Caleb's concubine",
+                                                                                                          "children": []
+                                                                                                        },
+                                                                                                        {
+                                                                                                          "name": "Gazez",
+                                                                                                          "mother": "Ephah, Caleb's concubine",
+                                                                                                          "children": []
+                                                                                                        },
+                                                                                                        {
+                                                                                                          "name": "Jahdai",
+                                                                                                          "note": "It's not clear is Jahdai is a son or a concubine of Caleb",
+                                                                                                          "scripture": "2 Chron 2:47",
+                                                                                                          "children": [
+                                                                                                            { "name": "Regem", "children": [] },
+                                                                                                            { "name": "Jotham", "children": [] },
+																											{ "name": "Geshan", "children": [] },
+																											{ "name": "Pelet", "children": [] },
+																											{ "name": "Ephah", "children": [] },
+																											{ "name": "Shaaph", "children": [] }
+                                                                                                          ]
+                                                                                                        },
+                                                                                                        {
+                                                                                                          "name": "Sheber",
+                                                                                                          "mother": "Maachah, Caleb's concubine",
+                                                                                                          "children": []
+                                                                                                        },
+                                                                                                        {
+                                                                                                          "name": "Tirhanah",
+                                                                                                          "mother": "Maachah, Caleb's concubine",
+                                                                                                          "children": []
+                                                                                                        },
+                                                                                                        {
+                                                                                                          "name": "Shaaph",
+                                                                                                          "mother": "Maachah, Caleb's concubine",
+                                                                                                          "children": [
+                                                                                                            { "name": "Madmannah", "children": [] }
+                                                                                                          ]
+                                                                                                        },
+                                                                                                        {
+                                                                                                          "name": "Sheva",
+                                                                                                          "mother": "Maachah, Caleb's concubine",
+                                                                                                          "children": [
+                                                                                                            { "name": "Machbenah", "children": [] },
+                                                                                                            { "name": "Gibea", "children": [] }
+                                                                                                          ]
+                                                                                                        },
+                                                                                                        {
+                                                                                                          "name": "Achsah",
+                                                                                                          "relationship": "daughter",
+                                                                                                          "children": []
                                                                                                         }
                                                                                                       ]
                                                                                                     }

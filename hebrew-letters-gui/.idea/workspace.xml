@@ -2,30 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="381e5445-d32a-4ff5-a50d-82ca8cb9eadd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../bible-genealogy/.idea/bible-genealogy.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../bible-genealogy/bible_genealogy_gui.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../bible-genealogy/bible_genealogy_json.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../bible-genealogy/chronicles1_genealogy.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../bible-genealogy/chronicles1_kingsofedom_genealogy.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../bible-genealogy/chronicles1_seir_genealogy.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../bible-genealogy/genealogy-matthew.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../bible-genealogy/genealogy_selection.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../bible-genealogy/generate_json.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../bible-genealogy/treeview_example.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../fin-stat-analysis/.idea/fin-stat-analysis.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../financially-free/.idea/financially-free.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gmail/.idea/gmail.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/date-util.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../utils/.idea/utils.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../fin-stat-analysis/credit-card-analysis.py" beforeDir="false" afterPath="$PROJECT_DIR$/../fin-stat-analysis/credit-card-analysis.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../fin-stat-analysis/savings-analysis.py" beforeDir="false" afterPath="$PROJECT_DIR$/../fin-stat-analysis/savings-analysis.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gmail/delete-gmail.py" beforeDir="false" afterPath="$PROJECT_DIR$/../gmail/delete-gmail.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gmail/gmail-api.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gmail/manage-gmail" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gmail/manage-gmail.py" beforeDir="false" afterPath="$PROJECT_DIR$/../gmail/manage-gmail.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bible-genealogy/bible_genealogy_gui.py" beforeDir="false" afterPath="$PROJECT_DIR$/../bible-genealogy/bible_genealogy_gui.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hebrew-letters-gui.py" beforeDir="false" afterPath="$PROJECT_DIR$/hebrew-letters-gui.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hebrew-mnemonics.json" beforeDir="false" afterPath="$PROJECT_DIR$/hebrew-mnemonics.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +29,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../bible-genealogy" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="PyConsoleOptionsProvider">
