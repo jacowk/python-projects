@@ -1,0 +1,59 @@
+{
+  "name": "Descendents of Caleb",
+  "scripture": "1 Chronicles 2:50-54",
+  "children": [
+    {
+      "name": "Ephrathah",
+      "children": [
+        {
+          "name": "Hur",
+          "note": "Firstborn of Ephrathah",
+          "children": [
+            {
+              "name": "Shobal",
+              "children": [
+                {
+                  "name": "Kirjath Jearim",
+                  "children": [
+                    { "name": "the Ithrites", "children": [] },
+                    { "name": "the Puthites", "children": [] },
+                    { "name": "the Shumathites", "children": [] },
+                    { "name": "the Mishraites", "children": [] },
+                    { "name": "the Zorathites", "children": [] },
+                    { "name": "the Eshtaolites", "children": [] }
+                  ]
+                },
+                {
+                  "name": "Haroeh",
+                  "note": "descendents",
+                  "children": []
+                },
+			    {
+                  "name": "Half of the families of Manuhoth",
+                  "note": "descendents",
+                  "children": []
+                }
+              ]
+            },
+			{
+              "name": "Salma",
+              "children": [
+                { "name": "Bethlehem", "children": [] },
+                { "name": "the Netophathites", "children": [] },
+                { "name": "Atroth Beth Joab", "children": [] },
+                { "name": "half of the Manahethites", "children": [] },
+                { "name": "the Zorites", "children": [] }
+              ]
+            },
+			{
+              "name": "Hareph",
+              "children": [
+                { "name": "Beth Gader", "children": [] }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

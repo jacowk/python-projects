@@ -16,12 +16,16 @@ class BibleGenealogyGui(Frame):
     def __init__(self):
         Frame.__init__(self)
 
-        #Continue 1 Chron 2:50
+        #Continue 1 Chron 4:3
         #https://www.askpython.com/python-modules/tkinter/tkinter-treeview-widget
 
         # data = bg.retrieve_json("genealogy-matthew.json")
-        data = bg.retrieve_json("1chronicles_genealogy.json")
-        # data = bg.retrieve_json("chronicles1_seir_genealogy.json")
+        # data = bg.retrieve_json("1chronicles_genealogy.json")
+        data = bg.retrieve_json("1chronicles_judah_genealogy.json")
+        # data = bg.retrieve_json("1chronicles_seir_genealogy.json")
+        # data = bg.retrieve_json("1chronicles_descendents_caleb.json")
+        # data = bg.retrieve_json("1chronicles_families_scribes.json")
+        # data = bg.retrieve_json("1chronicles_kingsofedom_genealogy.json")
         # data = bg.retrieve_json("test.json")
         # data = bg.retrieve_json("matthew1_genealogy.json")
         # data = bg.retrieve_json("luke3_genealogy.json")

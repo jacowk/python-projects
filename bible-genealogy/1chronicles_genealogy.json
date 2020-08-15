@@ -357,7 +357,297 @@
                                                                                                                                 {
                                                                                                                                   "name": "David",
                                                                                                                                   "note": "Seventh",
-                                                                                                                                  "children": []
+                                                                                                                                  "children": [
+                                                                                                                                    {
+                                                                                                                                      "name": "Amnon",
+                                                                                                                                      "mother": "Ahinoam the Jezreelitess",
+                                                                                                                                      "note": "Firstborn, born in Hebron",
+                                                                                                                                      "children": []
+                                                                                                                                    },
+                                                                                                                                    {
+                                                                                                                                      "name": "Daniel",
+                                                                                                                                      "mother": "Abigail the Carmelitess",
+                                                                                                                                      "note": "Second, born in Hebron",
+                                                                                                                                      "children": []
+                                                                                                                                    },
+                                                                                                                                    {
+                                                                                                                                      "name": "Absalom",
+                                                                                                                                      "mother": "Maacah, the daughter of Talmai, king of Geshur",
+                                                                                                                                      "note": "Third, born in Hebron",
+                                                                                                                                      "children": []
+                                                                                                                                    },
+                                                                                                                                    {
+                                                                                                                                      "name": "Adonijah",
+                                                                                                                                      "mother": "Haggith",
+                                                                                                                                      "note": "Fourth, born in Hebron",
+                                                                                                                                      "children": []
+                                                                                                                                    },
+                                                                                                                                    {
+                                                                                                                                      "name": "Shephatiah",
+                                                                                                                                      "mother": "Abital",
+                                                                                                                                      "note": "Fifth, born in Hebron",
+                                                                                                                                      "children": []
+                                                                                                                                    },
+                                                                                                                                    {
+                                                                                                                                      "name": "Ithream",
+                                                                                                                                      "mother": "David's wife Eglah",
+                                                                                                                                      "note": "Sixth, born in Hebron",
+                                                                                                                                      "children": []
+                                                                                                                                    },
+                                                                                                                                    {
+                                                                                                                                      "name": "Shimea",
+                                                                                                                                      "note": "Born in Jerusalem",
+                                                                                                                                      "children": []
+                                                                                                                                    },
+                                                                                                                                    {
+                                                                                                                                      "name": "Shobab",
+                                                                                                                                      "note": "Born in Jerusalem",
+                                                                                                                                      "children": []
+                                                                                                                                    },
+                                                                                                                                    {
+                                                                                                                                      "name": "Nathan",
+                                                                                                                                      "note": "Born in Jerusalem",
+                                                                                                                                      "children": []
+                                                                                                                                    },
+                                                                                                                                    {
+                                                                                                                                      "name": "Solomon",
+                                                                                                                                      "note": "Born in Jerusalem",
+                                                                                                                                      "children": [
+                                                                                                                                        {
+                                                                                                                                          "name": "Rehoboam",
+                                                                                                                                          "children": [
+                                                                                                                                            {
+                                                                                                                                              "name": "Abijah",
+                                                                                                                                              "children": [
+                                                                                                                                                {
+                                                                                                                                                  "name": "Asa",
+                                                                                                                                                  "children": [
+                                                                                                                                                    {
+                                                                                                                                                      "name": "Jehoshaphat",
+                                                                                                                                                      "children": [
+                                                                                                                                                        {
+                                                                                                                                                          "name": "Joram",
+                                                                                                                                                          "children": [
+                                                                                                                                                            {
+                                                                                                                                                              "name": "Ahaziah",
+                                                                                                                                                              "children": [
+                                                                                                                                                                {
+                                                                                                                                                                  "name": "Joash",
+                                                                                                                                                                  "children": [
+                                                                                                                                                                    {
+                                                                                                                                                                      "name": "Amaziah",
+                                                                                                                                                                      "children": [
+                                                                                                                                                                        {
+                                                                                                                                                                          "name": "Azariah",
+                                                                                                                                                                          "children": [
+                                                                                                                                                                            {
+                                                                                                                                                                              "name": "Jotham",
+                                                                                                                                                                              "children": [
+                                                                                                                                                                                {
+                                                                                                                                                                                  "name": "Ahaz",
+                                                                                                                                                                                  "children": [
+                                                                                                                                                                                    {
+                                                                                                                                                                                      "name": "Hezekiah",
+                                                                                                                                                                                      "children": [
+                                                                                                                                                                                        {
+                                                                                                                                                                                          "name": "Manasseh",
+                                                                                                                                                                                          "children": [
+                                                                                                                                                                                            {
+                                                                                                                                                                                              "name": "Amon",
+                                                                                                                                                                                              "children": [
+                                                                                                                                                                                                {
+                                                                                                                                                                                                  "name": "Josiah",
+                                                                                                                                                                                                  "children": [
+                                                                                                                                                                                                    {
+                                                                                                                                                                                                      "name": "Johanan",
+                                                                                                                                                                                                      "note": "Firstborn",
+                                                                                                                                                                                                      "children": []
+                                                                                                                                                                                                    },
+                                                                                                                                                                                                    {
+                                                                                                                                                                                                      "name": "Jehoiakim",
+                                                                                                                                                                                                      "note": "Second",
+                                                                                                                                                                                                      "children": [
+                                                                                                                                                                                                        {
+                                                                                                                                                                                                          "name": "Jeconiah",
+                                                                                                                                                                                                          "children": [
+                                                                                                                                                                                                            {
+                                                                                                                                                                                                              "name": "Assir",
+                                                                                                                                                                                                              "children": [
+                                                                                                                                                                                                                { "name": "Shealtiel", "children": [] }
+                                                                                                                                                                                                              ]
+                                                                                                                                                                                                            },
+                                                                                                                                                                                                            { "name": "Malchiram", "children": [] },
+                                                                                                                                                                                                            {
+                                                                                                                                                                                                              "name": "Pedaiah",
+                                                                                                                                                                                                              "children": [
+                                                                                                                                                                                                                {
+                                                                                                                                                                                                                  "name": "Zerubbabel",
+                                                                                                                                                                                                                  "note": "Five in all?",
+                                                                                                                                                                                                                  "scripture": "1 Chronicles 3:20",
+                                                                                                                                                                                                                  "children": [
+                                                                                                                                                                                                                    { "name": "Meshullam", "children": [] },
+                                                                                                                                                                                                                    {
+                                                                                                                                                                                                                      "name": "Hananiah",
+                                                                                                                                                                                                                      "scripture": "1 Chronicles 3:21-22",
+                                                                                                                                                                                                                      "children": [
+                                                                                                                                                                                                                        { "name": "Pelatiah", "children": [] },
+																																								                                                        { "name": "Jeshaiah", "children": [] },
+                                                                                                                                                                                                                        { "name": "the sons of Rephaiah", "children": [] },
+                                                                                                                                                                                                                        { "name": "the sons of Arnan", "children": [] },
+                                                                                                                                                                                                                        { "name": "the sons of Obadiah", "children": [] },
+                                                                                                                                                                                                                        {
+                                                                                                                                                                                                                          "name": "the sons of Shechaniah",
+                                                                                                                                                                                                                          "children": [
+                                                                                                                                                                                                                            {
+                                                                                                                                                                                                                              "name": "Shemaiah",
+                                                                                                                                                                                                                              "note": "Six in all?",
+                                                                                                                                                                                                                              "scripture": "1 Chronicles 3:21",
+                                                                                                                                                                                                                              "children": [
+                                                                                                                                                                                                                                { "name": "Hattush", "children": [] },
+                                                                                                                                                                                                                                { "name": "Igal", "children": [] },
+                                                                                                                                                                                                                                { "name": "Bariah", "children": [] },
+                                                                                                                                                                                                                                {
+                                                                                                                                                                                                                                  "name": "Neariah",
+                                                                                                                                                                                                                                  "children": [
+                                                                                                                                                                                                                                    {
+                                                                                                                                                                                                                                      "name": "Elioenai",
+                                                                                                                                                                                                                                      "children": [
+                                                                                                                                                                                                                                        { "name": "Hodaviah", "children": [] },
+                                                                                                                                                                                                                                        { "name": "Eliashib", "children": [] },
+                                                                                                                                                                                                                                        { "name": "Pelaiah", "children": [] },
+                                                                                                                                                                                                                                        { "name": "Akkub", "children": [] },
+                                                                                                                                                                                                                                        { "name": "Johanan", "children": [] },
+                                                                                                                                                                                                                                        { "name": "Delaiah", "children": [] },
+                                                                                                                                                                                                                                        { "name": "Anani", "children": [] }
+                                                                                                                                                                                                                                      ]
+                                                                                                                                                                                                                                    },
+                                                                                                                                                                                                                                    { "name": "Hezekiah", "children": [] },
+                                                                                                                                                                                                                                    { "name": "Azrikam", "children": [] }
+                                                                                                                                                                                                                                  ]
+                                                                                                                                                                                                                                },
+                                                                                                                                                                                                                                { "name": "Shaphat", "children": [] }
+                                                                                                                                                                                                                              ]
+                                                                                                                                                                                                                            }
+                                                                                                                                                                                                                          ]
+                                                                                                                                                                                                                        }
+                                                                                                                                                                                                                      ]
+                                                                                                                                                                                                                    },
+                                                                                                                                                                                                                    {
+                                                                                                                                                                                                                      "name": "Shelomith",
+                                                                                                                                                                                                                      "relationship": "their sister",
+                                                                                                                                                                                                                      "children": []
+                                                                                                                                                                                                                    },
+                                                                                                                                                                                                                    { "name": "Hashubah", "children": [] },
+                                                                                                                                                                                                                    { "name": "Ohel", "children": [] },
+                                                                                                                                                                                                                    { "name": "Berechiah", "children": [] },
+                                                                                                                                                                                                                    { "name": "Hasadiah", "children": [] },
+                                                                                                                                                                                                                    { "name": "Jushab-Hesed", "children": [] }
+
+                                                                                                                                                                                                                  ]
+                                                                                                                                                                                                                },
+                                                                                                                                                                                                                { "name": "Shimei", "children": [] }
+                                                                                                                                                                                                              ]
+                                                                                                                                                                                                            },
+                                                                                                                                                                                                            { "name": "Shenazzar", "children": [] },
+                                                                                                                                                                                                            { "name": "Jecamiah", "children": [] },
+                                                                                                                                                                                                            { "name": "Hoshama", "children": [] },
+                                                                                                                                                                                                            { "name": "Nedabiah", "children": [] }
+                                                                                                                                                                                                          ]
+                                                                                                                                                                                                        },
+                                                                                                                                                                                                        {
+                                                                                                                                                                                                          "name": "Zedekiah",
+                                                                                                                                                                                                          "children": []
+                                                                                                                                                                                                        }
+                                                                                                                                                                                                      ]
+                                                                                                                                                                                                    },
+                                                                                                                                                                                                    {
+                                                                                                                                                                                                      "name": "Zedekiah",
+                                                                                                                                                                                                      "note": "Third",
+                                                                                                                                                                                                      "children": []
+                                                                                                                                                                                                    },
+                                                                                                                                                                                                    {
+                                                                                                                                                                                                      "name": "Shallum",
+                                                                                                                                                                                                      "note": "Fourth",
+                                                                                                                                                                                                      "children": []
+                                                                                                                                                                                                    }
+                                                                                                                                                                                                  ]
+                                                                                                                                                                                                }
+                                                                                                                                                                                              ]
+                                                                                                                                                                                            }
+                                                                                                                                                                                          ]
+                                                                                                                                                                                        }
+                                                                                                                                                                                      ]
+                                                                                                                                                                                    }
+                                                                                                                                                                                  ]
+                                                                                                                                                                                }
+                                                                                                                                                                              ]
+                                                                                                                                                                            }
+                                                                                                                                                                          ]
+                                                                                                                                                                        }
+                                                                                                                                                                      ]
+                                                                                                                                                                    }
+                                                                                                                                                                  ]
+                                                                                                                                                                }
+                                                                                                                                                              ]
+                                                                                                                                                            }
+                                                                                                                                                          ]
+                                                                                                                                                        }
+                                                                                                                                                      ]
+                                                                                                                                                    }
+                                                                                                                                                  ]
+                                                                                                                                                }
+                                                                                                                                              ]
+                                                                                                                                            }
+                                                                                                                                          ]
+                                                                                                                                        }
+                                                                                                                                      ]
+                                                                                                                                    },
+                                                                                                                                    {
+                                                                                                                                      "name": "Ibhar",
+                                                                                                                                      "note": "Born in Jerusalem",
+                                                                                                                                      "children": []
+                                                                                                                                    },
+                                                                                                                                    {
+                                                                                                                                      "name": "Elishama",
+                                                                                                                                      "note": "Born in Jerusalem",
+                                                                                                                                      "children": []
+                                                                                                                                    },
+                                                                                                                                    {
+                                                                                                                                      "name": "Eliphelet",
+                                                                                                                                      "note": "Born in Jerusalem",
+                                                                                                                                      "children": []
+                                                                                                                                    },
+                                                                                                                                    {
+                                                                                                                                      "name": "Nogah",
+                                                                                                                                      "note": "Born in Jerusalem",
+                                                                                                                                      "children": []
+                                                                                                                                    },
+                                                                                                                                    {
+                                                                                                                                      "name": "Nepheg",
+                                                                                                                                      "note": "Born in Jerusalem",
+                                                                                                                                      "children": []
+                                                                                                                                    },
+                                                                                                                                    {
+                                                                                                                                      "name": "Japhia",
+                                                                                                                                      "note": "Born in Jerusalem",
+                                                                                                                                      "children": []
+                                                                                                                                    },
+                                                                                                                                    {
+                                                                                                                                      "name": "Elishama",
+                                                                                                                                      "note": "Born in Jerusalem",
+                                                                                                                                      "children": []
+                                                                                                                                    },
+                                                                                                                                    {
+                                                                                                                                      "name": "Eliada",
+                                                                                                                                      "note": "Born in Jerusalem",
+                                                                                                                                      "children": []
+                                                                                                                                    },
+                                                                                                                                    {
+                                                                                                                                      "name": "Eliphelet",
+                                                                                                                                      "note": "Born in Jerusalem",
+                                                                                                                                      "children": []
+                                                                                                                                    }
+                                                                                                                                  ]
                                                                                                                                 },
                                                                                                                                 {
                                                                                                                                   "name": "Zeruiah",

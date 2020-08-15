@@ -1,0 +1,26 @@
+{
+  "name": "Judah",
+  "children": [
+    { "name": "Perez", "children": [] },
+    { "name": "Hezron", "children": [] },
+    { "name": "Carmi", "children": [] },
+    { "name": "Hur", "children": [] },
+    {
+      "name": "Shobal",
+      "children": [
+        {
+          "name": "Reaiah",
+          "children": [
+            {
+              "name": "Jahath",
+              "children": [
+                { "name": "Ahumai", "children": [] },
+                { "name": "Lahad", "children": [] }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -7,13 +7,13 @@ Created on Sun 26 July 2020
 
 """
 import json
-no_of_tabs = 3
+no_of_tabs = 0
 
 def generate_tabs(no_of_tabs):
     return "\t" * no_of_tabs
 
 def generate_names(no_of_tabs):
-    values = add_quotes("Almodad, Sheleph, Hazarmaveth, Jerah, Hadoram, Uzal, Diklah, Obal, Abimael, Sheba, Ophir, Havilah, Jobab")
+    values = add_quotes("Ahumai, Lahad")
     for value in values:
         print("{}{{ \"name\": \"{}\", \"children\": [] }},".format(generate_tabs(no_of_tabs),value))
 
@@ -24,7 +24,7 @@ def create_dict(name):
     return branch
 
 def generate_tree():
-    names = [ "Adam", "Seth" ]
+    names = add_quotes("Jeconiah, Zedekiah")
     dict_list = []
     for name in names:
         branch = create_dict(name)
@@ -45,3 +45,5 @@ def add_quotes(string):
 #add_quotes()
 generate_names(no_of_tabs)
 #generate_tree()
+
+

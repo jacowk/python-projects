@@ -37,7 +37,7 @@ create index i_perp_race on nypd_arrests_2017(perp_race);
 
 CREATE TABLE nypd_arrests_2017 (
 	id INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
-	arrest_key INT(9),
+	id VARCHAR(10),
 	arrest_date DATE,
 	arrest_year INT(4),
 	pd_cd INT(3),
@@ -57,3 +57,51 @@ CREATE TABLE nypd_arrests_2017 (
 	latitude DECIMAL(30, 20),
 	longitude DECIMAL(30, 20)
 );
+
+ID:  14-0273
+Date:  06/28/2014 12:00:00 AM
+DateType:  DateReported
+Age:
+Sex:
+Race:
+ResidenceCity:
+ResidenceCounty:
+ResidenceState:
+DeathCity:
+DeathCounty:
+Location:
+LocationifOther:
+DescriptionofInjury:  substance
+InjuryPlace:
+InjuryCity:
+InjuryCounty:
+InjuryState:
+COD:  Acute fent, hydrocod, benzodiazepine
+OtherSignifican:
+Heroin:
+Cocaine:
+Fentanyl:  Y
+FentanylAnalogue:
+Oxycodone:
+Oxymorphone:
+Ethanol:
+Hydrocodone:  Y
+Benzodiazepine:  Y
+Methadone:
+Amphet:
+Tramad:
+Morphine_NotHeroin:
+Hydromorphone:
+Other:
+OpiateNOS:
+AnyOpioid:
+MannerofDeath:  Accident
+DeathCityGeo:  CT
+(41.575155, -72.738288)
+ResidenceCityGeo:  CT
+(41.575155, -72.738288)
+InjuryCityGeo:  CT
+(41.575155, -72.738288)
+
+
+Press any key to continue, or 'q' to quite...

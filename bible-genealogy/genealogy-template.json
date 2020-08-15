@@ -18,6 +18,9 @@
           ]
         },
         { "name": "Jet" }
+      ],
+      "descendents" : [
+        { "name":"Jim", "children" : [] }
       ]
     },
     { "name":"Jim", "children" : [] }

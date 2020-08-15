@@ -31,7 +31,17 @@ expense_transaction_types = [
 'Clicks Discovery place',
 'CALTEX TOM JONES',
 'SASOL WILROPARK',
-'WOOLWORTHS DISCOVERY'
+'WOOLWORTHS DISCOVERY',
+'SASOL MOZART RT',
+'PAYFAST*Moneyweb',
+'CHRISTIAAN DE WET',
+'I MTN2',
+'STARBUCKS CLEARWATER',
+'Intelleprk Clearwater',
+'CALTEX RUIMSIG',
+'UDEMY ONLINE COURSES',
+'GAME CLEARWATER',
+'C*Dischem Strubens ValleyWILGEHEUWEL'
 ]
 
 def prepare_directory(output_path):

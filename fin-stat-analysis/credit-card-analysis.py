@@ -52,8 +52,9 @@ from datetime import datetime
 from credit_card_model import expense_transaction_types, income_transaction_types, prepare_directory
 from shutil import copyfile
 
+# Before starting, copy the CSV file to this directory
 current_date_time = datetime.today().strftime('%Y-%m-%d %H:%M:%S')
-date = "202004"
+date = "202005"
 input_filename = "CreditCardTransactionHistory" + date
 base_path = "/home/jaco/python-data/fin-stat-analysis"
 account_type = "CreditCard"

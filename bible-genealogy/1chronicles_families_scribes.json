@@ -1,0 +1,10 @@
+{
+  "name": "The families of the scribes who dwelt at Jabez",
+  "note": "These were the Kenites who came from Hammath, the father of the house of Rechab.",
+  "scripture": "1 Chronicles 2:55",
+  "children": [
+    { "name": "the Tirathites", "children": [] },
+    { "name": "the Shimeathites", "children": [] },
+    { "name": "the Suchathites", "children": [] }
+  ]
+}

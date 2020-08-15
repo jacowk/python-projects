@@ -10,7 +10,7 @@ https://data.world/jaco-koekemoer/personaldataanalysis
 
 ----------------------------
 Installing mysql for python:
-----------------------------    
+----------------------------
 https://pypi.org/project/mysqlclient/
 https://mysqlclient.readthedocs.io/
 
@@ -63,7 +63,6 @@ db = mysql.connect(host="localhost",  # your host
 
 # prepare a cursor object using cursor() method
 cursor = db.cursor()
-
 
 # execute SQL query using execute() method.
 cursor.execute("SELECT VERSION()")
