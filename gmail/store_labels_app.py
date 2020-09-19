@@ -6,6 +6,8 @@ import gmail_oo.gmail_connector as gc
 import gmail_oo.list_labels as ll
 import gmail_oo.json_saver as js
 import gmail_oo.utils as u
+import os.path as p
+import os
 
 class StoreLabelsApp:
 
@@ -21,6 +23,11 @@ class StoreLabelsApp:
 
         # Print the labels
         print(labels)
+
+        # Delete local labels file
+        if p.isfile(u.GmailEnum.LABELS_FILE.value):
+            print("Removing existing file {}".format(u.GmailEnum.LABELS_FILE.value))
+            os.remove(u.GmailEnum.LABELS_FILE.value)
 
         # Store JSON
         filename = u.GmailEnum.LABELS_FILE.value

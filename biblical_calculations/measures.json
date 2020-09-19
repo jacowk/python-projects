@@ -1,0 +1,17 @@
+{
+  "lengths": [
+    {
+      "name": "Finger",
+      "conversions": [
+        {
+          "conversion_name": "inches",
+          "conversion_value": 0.73
+        },
+        {
+          "conversion_name": "centimeters",
+          "conversion_value": 1.85
+        }
+      ]
+    }
+  ]
+}

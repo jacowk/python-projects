@@ -41,7 +41,11 @@ expense_transaction_types = [
 'CALTEX RUIMSIG',
 'UDEMY ONLINE COURSES',
 'GAME CLEARWATER',
-'C*Dischem Strubens ValleyWILGEHEUWEL'
+'C*Dischem Strubens ValleyWILGEHEUWEL',
+'KRISPY KREME - CLEARWAR',
+'CNA CLEARWATER',
+'PNP FRAN HONEYJUNCTION',
+'ROCOMAMAS RUIMSIG'
 ]
 
 def prepare_directory(output_path):

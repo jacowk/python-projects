@@ -31,7 +31,8 @@ expense_transaction_types = [
 'MTN SP',
 'ATM WITHDRAWAL',
 'NOTIFICATION FEE',
-'HH FONDS'
+'HH FONDS',
+'ABSA BANK WILLS'
 ]
 
 def prepare_directory(output_path):

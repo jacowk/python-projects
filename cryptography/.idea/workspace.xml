@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="57628f3a-ac4e-4161-85c7-152883574ade" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../biblical_calculations/dry_measures/cab.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../biblical_calculations/dry_measures/cor.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../biblical_calculations/dry_measures/dry_measures.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../biblical_calculations/dry_measures/ephah.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../biblical_calculations/dry_measures/homer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../biblical_calculations/dry_measures/lethech.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../biblical_calculations/dry_measures/nt_cor.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../biblical_calculations/dry_measures/omer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../biblical_calculations/dry_measures/seah.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../biblical_calculations/lengths/cubit.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../biblical_calculations/lengths/day_journey.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../biblical_calculations/lengths/fathom.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../biblical_calculations/lengths/finger.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../biblical_calculations/lengths/furlong.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../biblical_calculations/lengths/handbreadth.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../biblical_calculations/lengths/lengths.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../biblical_calculations/lengths/long_cubit.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../biblical_calculations/lengths/rod.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../biblical_calculations/lengths/sabbath_day_journey.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../biblical_calculations/lengths/span.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../biblical_calculations/lengths/stadion.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../biblical_calculations/liquid_measures/bath.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../biblical_calculations/liquid_measures/cor.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../biblical_calculations/liquid_measures/hin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../biblical_calculations/liquid_measures/homer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../biblical_calculations/liquid_measures/liquid_measures.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../biblical_calculations/liquid_measures/log.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../biblical_calculations/liquid_measures/metretes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../biblical_calculations/liquid_measures/nt_bath.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../biblical_calculations/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../biblical_calculations/measures.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../biblical_calculations/scrap_measures/save_measures.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../biblical_calculations/scrap_measures/scrap.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../biblical_calculations/scrap_measures/scrap_app.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../biblical_calculations/scrap_measures/scrap_lengths.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../biblical_calculations/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../biblical_calculations/weights/beka.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../biblical_calculations/weights/gerah.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../biblical_calculations/weights/litra.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../biblical_calculations/weights/mina.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../biblical_calculations/weights/pim.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../biblical_calculations/weights/shekel.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../biblical_calculations/weights/talent.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../biblical_calculations/weights/weights.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/cryptography.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dataset-analysis/bible_calculations/.idea/bible_calculations.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dataset-analysis/bible_calculations/calc_oo/lengths/lengths.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dataset-analysis/bible_calculations/calc_oo/lengths/span.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dataset-analysis/bible_calculations/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gmail/count_inbox_app.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gmail/create_label_app.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gmail/gmail_oo/create_label.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gmail/gmail_oo/label_messages.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gmail/gmail_oo/label_validator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gmail/gmail_oo/list_messages.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gmail/label_multiple_messages_app.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gmail/store_messages_app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fin-stat-analysis/credit-card-analysis.py" beforeDir="false" afterPath="$PROJECT_DIR$/../fin-stat-analysis/credit-card-analysis.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fin-stat-analysis/credit_card_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/../fin-stat-analysis/credit_card_model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fin-stat-analysis/model.py" beforeDir="false" afterPath="$PROJECT_DIR$/../fin-stat-analysis/model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fin-stat-analysis/savings-analysis.py" beforeDir="false" afterPath="$PROJECT_DIR$/../fin-stat-analysis/savings-analysis.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmail/gmail_oo/label_id_lookup.py" beforeDir="false" afterPath="$PROJECT_DIR$/../gmail/gmail_oo/label_id_lookup.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmail/gmail_oo/label_messages_label_picker.py" beforeDir="false" afterPath="$PROJECT_DIR$/../gmail/gmail_oo/label_messages_label_picker.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmail/gmail_oo/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/../gmail/gmail_oo/utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmail/label_messages_app.py" beforeDir="false" afterPath="$PROJECT_DIR$/../gmail/label_messages_app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmail/list_messages_query_app.py" beforeDir="false" afterPath="$PROJECT_DIR$/../gmail/list_messages_query_app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmail/manage_gmail_app.py" beforeDir="false" afterPath="$PROJECT_DIR$/../gmail/delete_messages_app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmail/store_labels_app.py" beforeDir="false" afterPath="$PROJECT_DIR$/../gmail/store_labels_app.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1g8kRndejNW0QhDHmXegQstbrC4" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunManager">
+    <configuration name="decrypt" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="cryptography" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/decrypt.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.decrypt" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="57628f3a-ac4e-4161-85c7-152883574ade" name="Default Changelist" comment="" />
+      <created>1597503620083</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1597503620083</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1278" height="186" key="GridCell.Tab.0.bottom" timestamp="1599911406481">
+      <screen x="65" y="24" width="1301" height="744" />
+    </state>
+    <state width="1278" height="186" key="GridCell.Tab.0.bottom/65.24.1301.744@65.24.1301.744" timestamp="1599911406481" />
+    <state width="1278" height="186" key="GridCell.Tab.0.center" timestamp="1599911406480">
+      <screen x="65" y="24" width="1301" height="744" />
+    </state>
+    <state width="1278" height="186" key="GridCell.Tab.0.center/65.24.1301.744@65.24.1301.744" timestamp="1599911406480" />
+    <state width="1278" height="186" key="GridCell.Tab.0.left" timestamp="1599911406480">
+      <screen x="65" y="24" width="1301" height="744" />
+    </state>
+    <state width="1278" height="186" key="GridCell.Tab.0.left/65.24.1301.744@65.24.1301.744" timestamp="1599911406480" />
+    <state width="1278" height="186" key="GridCell.Tab.0.right" timestamp="1599911406481">
+      <screen x="65" y="24" width="1301" height="744" />
+    </state>
+    <state width="1278" height="186" key="GridCell.Tab.0.right/65.24.1301.744@65.24.1301.744" timestamp="1599911406481" />
+  </component>
+</project>

@@ -54,7 +54,7 @@ from shutil import copyfile
 
 # Before starting, copy the CSV file to this directory
 current_date_time = datetime.today().strftime('%Y-%m-%d %H:%M:%S')
-date = "202006"
+date = "202007"
 input_filename = "SavingsTransactionHistory" + date
 base_path = "/home/jaco/python-data/fin-stat-analysis"
 account_type = "Savings"

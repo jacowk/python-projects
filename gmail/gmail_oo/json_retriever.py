@@ -7,7 +7,7 @@ import json
 class JSONRetriever:
 
     def retrieve(self, json_filename):
-        print("Retrieving")
+        #print("Retrieving")
         # Read file
         try:
             f = open(json_filename, 'r')

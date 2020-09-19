@@ -21,8 +21,14 @@ class LabelMessagesApp:
         print("==" * 20)
 
     def run(self):
+        print("Before running this app, make sure you ran list_messages_query_app.py to get the messages to label.")
+        if not u.confirmation("Do you want to continue labeling the messages?"):
+            return
+
         filename_str = u.GmailEnum.FILENAME_SUBSTRING.value
         email_from = u.GmailEnum.EMAIL_FROM.value
+
+        print("Label messages - Filename substring: {} - Email from: {}".format(filename_str, email_from))
 
         # Connect to GMail
         gmail_connector = gc.GMailConnector()
@@ -34,7 +40,7 @@ class LabelMessagesApp:
         gmail_json = json_retriever.retrieve(json_filename)  # Returnes a list of dictionaries
         cnt = 1
         print('Total messages: ', len(gmail_json))
-        user_id = 'me'
+        user_id = u.GmailEnum.USER_ID.value
 
         # Instantiate object to call GMail API to get the message
         get_message = gm.GetMessage(service, user_id)
@@ -46,8 +52,8 @@ class LabelMessagesApp:
         total = len(gmail_json)
         current = 1
         for item in gmail_json:  # For each message in the JSON file
-            print("Sleeping 2 seconds")
-            t.sleep(2)
+            print("Sleeping 1 seconds")
+            t.sleep(1)
             self.print_section_divider()
             print("Processing {} of {}".format(current, total))
             current += 1
@@ -95,9 +101,11 @@ class LabelMessagesApp:
                 continue
 
             # If not, assign the label to the message
-            if email_from in from_email:
+            if email_from in from_email or email_from == from_email:
                 print("Modifying message id {}".format(msg_id))
                 modify_message.modify(msg_id, add_label_list, delete_label_list)
+            else:
+                print("{} not in {}".format(email_from, from_email))
 
             # Limit to certain amount of messages
             #if cnt == 1:
