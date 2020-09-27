@@ -23,11 +23,12 @@ class SingleLabelValidator:
             if u.confirmation("Label {} does not exist. Do you want to create it?".format(self.label_name)):
                 create_label_app = cla.CreateLabelApp(label_name=self.label_name)
                 create_label_app.run()
+
+                store_labels_app = sla.StoreLabelsApp()
+                store_labels_app.run()
             else:
                 raise Exception("Label {} not found. Add it with create_label_app.py")
 
-        store_labels_app = sla.StoreLabelsApp()
-        store_labels_app.run()
 
 if __name__ == '__main__':
     label_validator = SingleLabelValidator(u.GmailEnum.RELABEL_LIST.value)

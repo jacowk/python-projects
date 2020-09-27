@@ -1,0 +1,10 @@
+savings_analysis.py - The original program to analyze savings account
+model.py - A list of constants for analyzing the savings account
+
+credit_card_analysis.py - The original program to analyze credit card account
+credit_card_model.py - A list of constants for analyzing the credit card account
+
+account_analyzer.py - An oo class to improve reuse of code to analyze code. This class contains
+the main logic for analysis.
+savings_analysis_app.py - Calls account_analyzer.py to analyze my savings account.
+credit_card_analysis_app.py - Calls account_analyzer.py to analyze my credit card account.

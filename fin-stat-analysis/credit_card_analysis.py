@@ -49,7 +49,6 @@ import pandas as pd
 import json
 import os
 from datetime import datetime
-from credit_card_model import expense_transaction_types, income_transaction_types, prepare_directory
 from shutil import copyfile
 
 # Before starting, copy the CSV file to this directory
